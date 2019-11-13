@@ -1,20 +1,26 @@
 """
-    类变量和实例变量
+            实例方法    类方法	        静态方法
+    a = A() a.foo(x)   a.class_foo(x)	a.static_foo(x)
+    A	    不可用      A.class_foo(x)	A.static_foo(x)
 """
 
 
-class Test(object):
-    num_of_instance = 0
+class A(object):
+    def foo(self, x):
+        print("executing foo(%s,%s)" % (self, x))
 
-    def __init__(self, name):
-        self.name = name
-        Test.num_of_instance += 1
+    @classmethod
+    def class_foo(cls, x):
+        print("executing class_foo(%s,%s)" % (cls, x))
+
+    @staticmethod
+    def static_foo(x):
+        print("executing static_foo(%s)" % x)
 
 
-if __name__ == '__main__':
-    print(Test.num_of_instance)  # 0
-    t1 = Test('jack')
-    print(Test.num_of_instance)  # 1
-    t2 = Test('lucy')
-    print(t1.name, t1.num_of_instance)  # jack 2
-    print(t2.name, t2.num_of_instance)  # lucy 2
+a = A()
+a.foo("1")
+a.class_foo('2')
+A.class_foo('3')
+a.static_foo('4')
+A.static_foo('5')
