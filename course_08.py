@@ -6,7 +6,7 @@
     生成器是一种特殊的迭代器
     生成器表达式是列表推导式的生成器版本
 """
-'''
+"""
 def something():
     result = []
     for ... in ...:
@@ -17,7 +17,7 @@ def something():
 def iter_something():
     for ... in ...:
         yield x
-'''
+"""
 
 L = [x * x for x in range(10)]
 print(L)
