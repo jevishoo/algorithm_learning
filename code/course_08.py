@@ -10,13 +10,13 @@
 def something():
     result = []
     for ... in ...:
-        result.append(x)
+        result.append(number)
     return result
 
 可以替换成生成器
 def iter_something():
     for ... in ...:
-        yield x
+        yield number
 """
 
 L = [x * x for x in range(10)]

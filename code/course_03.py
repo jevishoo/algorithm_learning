@@ -1,7 +1,7 @@
 """
             实例方法    类方法	        静态方法
-    a = A() a.foo(x)   a.class_foo(x)	a.static_foo(x)
-    A	    不可用      A.class_foo(x)	A.static_foo(x)
+    a = A() a.foo(number)   a.class_foo(number)	a.static_foo(number)
+    A	    不可用      A.class_foo(number)	A.static_foo(number)
 """
 
 
