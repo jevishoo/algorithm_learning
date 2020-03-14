@@ -1,4 +1,4 @@
-# Learn taizilongxu/python_interview
+# Learn python and Leetcode
 ## Python语言特性
 
 * python参数传递
