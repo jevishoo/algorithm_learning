@@ -60,5 +60,11 @@ public class TwoStacksQueue {
         System.out.println(queue.poll());
         System.out.println(queue.poll());
         System.out.println(queue.peek());
+        queue.add(3);
+        queue.add(2);
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
+
     }
 }
