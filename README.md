@@ -1,14 +1,12 @@
 # Algorithm Learning
 
 ## 1. Stack And Queue
-#### Day1 
-
-MinStack ★☆☆☆☆
-
-#### Day2
-
-TwoStacksQueue ★☆☆☆☆
-
-#### Day3 
-
-RecursionReverseStack ★★☆☆☆
+#### Day 1 
+    MinStack ★☆☆☆☆
+#### Day 2
+    TwoStacksQueue ★☆☆☆☆
+#### Day 3 
+    RecursionReverseStack ★★☆☆☆
+        Need Review
+#### Day 4 
+    CatDogQueue ★☆☆☆☆
