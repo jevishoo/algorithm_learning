@@ -10,3 +10,6 @@
         Need Review
 #### Day 4 
     CatDogQueue ★☆☆☆☆
+#### Day 5 
+    SortStackByStack ★☆☆☆☆    
+    HanoiProblem ★☆☆☆☆    
