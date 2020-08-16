@@ -5,9 +5,8 @@
     MinStack ★☆☆☆☆
 #### Day 2
     TwoStacksQueue ★☆☆☆☆
-#### Day 3 
+#### Day 3 Need Review
     RecursionReverseStack ★★☆☆☆
-        Need Review
 #### Day 4 
     CatDogQueue ★☆☆☆☆
 #### Day 5 
