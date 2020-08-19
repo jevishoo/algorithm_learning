@@ -1,4 +1,4 @@
-package code.Stack_Queue;
+package code.StackQueue;
 
 /**
  * @Date 2020/8/16 20:01
@@ -11,10 +11,10 @@ public class HanoiProblem {
 
     public static void simpleMove(int n, String a, String b, String c) {
         if (n == 1) {
-            System.out.println("Move 1 from " + a + " to " + c);
+            System.out.println("Simple Move 1 from " + a + " to " + c);
         } else {
             simpleMove(n - 1, a, c, b);
-            System.out.println("Move " + n + " from " + a + " to " + c);
+            System.out.println("Simple Move " + n + " from " + a + " to " + c);
             simpleMove(n - 1, b, a, c);
         }
     }
@@ -51,5 +51,6 @@ public class HanoiProblem {
 
     public static void main(String[] args) {
         simpleMove(4, "left", "mid", "right");
+        Move(4, "left", "mid", "right");
     }
 }

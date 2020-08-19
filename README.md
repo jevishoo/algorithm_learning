@@ -14,3 +14,8 @@
     HanoiProblem ★☆☆☆☆    
 #### Day 6 Need Review
     WindowMax ★★☆☆☆
+#### Day 7 Need Review
+    NearLessNumber ★★☆☆☆
+        no repeat Done
+        repeat Doing
+    
