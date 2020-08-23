@@ -2,7 +2,7 @@
 
 ## 1. Stack And Queue
 #### Day 1 
-    MinStack ★☆☆☆☆
+    [MinStack](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MinStack.java) ★☆☆☆☆
 #### Day 2
     TwoStacksQueue ★☆☆☆☆
 #### Day 3 Need Review
