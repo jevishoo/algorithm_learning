@@ -3,23 +3,23 @@
 ## 1. Stack And Queue
 [👆👆👆](https://github.com/jevishoo/algorithm_learning/tree/master/code/StackQueue)
 #### Day 1 
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MinStack.java)  `MinStack ★☆☆☆☆`
+[👉👉  `MinStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MinStack.java)
 #### Day 2
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoStacksQueue.java)  `TwoStacksQueue ★☆☆☆☆`
+[👉👉  `TwoStacksQueue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoStacksQueue.java)
 #### Day 3 Need Review
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/RecursionReverseStack.java)  `RecursionReverseStack ★★☆☆☆`
+[👉👉  `RecursionReverseStack ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/RecursionReverseStack.java)
 #### Day 4 
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/CatDogQueue.java)  `CatDogQueue ★☆☆☆☆`
+[👉👉  `CatDogQueue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/CatDogQueue.java)
 #### Day 5 
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SortStackByStack.java)  `SortStackByStack ★☆☆☆☆`    
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/HanoiProblem.java)  `HanoiProblem ★☆☆☆☆`    
+[👉👉  `SortStackByStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SortStackByStack.java)    
+[👉👉  `HanoiProblem ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/HanoiProblem.java)    
 #### Day 6 Need Review
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/WindowMax.java)  `WindowMax ★★☆☆☆`
+[👉👉  `WindowMax ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/WindowMax.java)
 #### Day 7 Need Review
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NearLessNumber.java)  `NearLessNumber no repeat ★★☆☆☆`
+[👉👉  `NearLessNumber no repeat ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NearLessNumber.java)
 #### Day 8 Need Review
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NearLessNumber.java)  `NearLessNumber repeat ★★☆☆☆`
+[👉👉  `NearLessNumber repeat ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NearLessNumber.java)
 #### Day 9 Review
 #### Day 10 Need Review
-[👉👉](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MaxRecSize.java)  `MaxRecSize ★★★☆☆`
+[👉👉  `MaxRecSize ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MaxRecSize.java)
     
