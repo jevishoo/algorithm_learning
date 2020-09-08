@@ -40,9 +40,11 @@ public class NumArray {
                 j++;
             }
             res += j - i;
+
             if (qmin.peekFirst() == i) {
                 qmin.pollFirst();
             }
+
             if (qmax.peekFirst() == i) {
                 qmax.pollFirst();
             }

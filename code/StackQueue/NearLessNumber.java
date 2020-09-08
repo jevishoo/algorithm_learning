@@ -27,7 +27,7 @@ import java.util.*;
  */
 public class NearLessNumber {
 
-    public static int[][] comparator(int[] arr) {
+    public static int[][] comparatorNoRep(int[] arr) {
         int[][] res = new int[arr.length][2];
         for (int i = 0; i < arr.length; i++) {
             int leftLessIndex = -1;
@@ -70,6 +70,7 @@ public class NearLessNumber {
             }
             note.push(i);
         }
+
         while (!note.isEmpty()) {
             int outStackIndex = note.pop();
             result[outStackIndex][0] = note.isEmpty() ? -1 : note.peek();
@@ -123,7 +124,7 @@ public class NearLessNumber {
         return result;
     }
 
-    public static int[][] getNearLess(int[] arr) {
+    public static int[][] comparatorRep(int[] arr) {
         int[][] res = new int[arr.length][2];
         Stack<List<Integer>> stack = new Stack<>();
         for (int i = 0; i < arr.length; i++) {
@@ -211,7 +212,7 @@ public class NearLessNumber {
 
     public static void main(String[] args) {
         int[] arr = new int[]{3, 4, 1, 5, 6, 2, 7};
-        int[][] res = comparator(arr);
+        int[][] res = comparatorNoRep(arr);
 
         for (int[] r : res) {
             System.out.println(Arrays.toString(r));
@@ -226,7 +227,7 @@ public class NearLessNumber {
 
         int[] repArr = new int[]{3, 1, 3, 4, 3, 1, 5, 4, 6, 2, 2, 7};
 
-        int[][] resRep = getNearLess(repArr);
+        int[][] resRep = comparatorRep(repArr);
 
         for (int[] r : resRep) {
             System.out.println(Arrays.toString(r));
@@ -254,10 +255,10 @@ public class NearLessNumber {
             int[][] res1;
             int[][] res2;
             if (isRepeat) {
-                res1 = comparator(arr1);
+                res1 = comparatorNoRep(arr1);
                 res2 = getNearLessNoRepeat(arr2);
             } else {
-                res1 = getNearLess(arr1);
+                res1 = comparatorRep(arr1);
                 res2 = getNearLessRepeat(arr2);
             }
             if (!isEqual(res1, res2)) {
