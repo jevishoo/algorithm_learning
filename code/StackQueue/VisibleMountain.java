@@ -1,5 +1,6 @@
 package code.StackQueue;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -62,7 +63,7 @@ public class VisibleMountain {
         for (int i = 0; i < size; i++) {
             maxIndex = arr[maxIndex] < arr[i] ? i : maxIndex;
         }
-        Stack<Record> stack = new Stack<Record>();
+        Stack<Record> stack = new Stack<>();
         // 先把(最大值,1)这个记录放入stack 中
         stack.push(new Record(arr[maxIndex]));
         // 从最大值位置的下一个位置开始沿next 方向遍历
@@ -116,8 +117,76 @@ public class VisibleMountain {
     }
 
 
-    public int getVisibleNum(int[] arr) {
-        return 0;
+    public static int getVisibleNum(int[] arr) {
+        int length = arr.length;
+        Stack<Record> stack = new Stack<>();
+        int result = 0;
+
+        //得到最大值的索引
+        int maxIndex = 0;
+
+        for (int i = 0; i < length; i++) {
+            maxIndex = arr[maxIndex] < arr[i] ? i : maxIndex;
+        }
+        //将最大值压入栈
+        stack.push(new Record(arr[maxIndex]));
+        int index = nextIndex(maxIndex, length);
+
+        while (index != maxIndex) {
+            //栈顶元素小于新数则 取出栈顶元素并计算可见山峰
+            while (stack.peek().value < arr[index]) {
+                Record record = stack.pop();
+                if (record.times == 1) {
+                    result += 2;
+                } else {
+                    int addNum = 2 * record.times + getInternalSum(record.times);
+                    result += addNum;
+                }
+            }
+
+            //栈顶元素等于新数则 栈顶元素的time加1
+            if (stack.peek().value == arr[index]) {
+                stack.peek().times++;
+            } else {
+                //此外栈压入新元素
+                stack.push(new Record(arr[index]));
+            }
+            index = nextIndex(index, length);
+        }
+
+        // 清算阶段
+        while (!stack.isEmpty()) {
+            Record record = stack.pop();
+            if (stack.isEmpty()) { //stack为空 record为栈底元素，直接计算C(2,i)
+                result += getInternalSum(record.times);
+            } else {
+                //栈只剩一个元素时，且栈底元素的个数为 1 则每个record的元素只能加 1
+                if (stack.peek().times == 1 && stack.size() == 1) {
+                    if (record.times == 1) {
+                        result += 1;
+                    } else {
+                        int addNum = record.times + getInternalSum(record.times);
+                        result += addNum;
+                    }
+                } else { //其他情况下 每个record的元素 都可以加 2
+                    if (record.times == 1) {
+                        result += 2;
+                    } else {
+                        int addNum = 2 * record.times + getInternalSum(record.times);
+                        result += addNum;
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
+    public static int[] generateRandomArray(int minSize, int maxSize, int maxValue) {
+        int[] arr = new int[(int) ((maxSize - minSize + 1) * Math.random()) + minSize];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = Math.abs((int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random()));
+        }
+        return arr;
     }
 
     public static void main(String[] args) {
@@ -125,5 +194,27 @@ public class VisibleMountain {
 
         int res = comparator(array);
         System.out.println(res);
+        int result = getVisibleNum(array);
+        System.out.println(result);
+
+        int testTime = 50000;
+        int maxSize = 100;
+        int minSize = 1;
+        int maxValue = 100;
+        boolean succeed = true;
+        for (int i = 0; i < testTime; i++) {
+            int[] arr = generateRandomArray(minSize, maxSize, maxValue);
+            int res1 = getVisibleNum(arr);
+            int res2 = comparator(arr);
+
+            if (res1 != res2) {
+                succeed = false;
+                System.out.println(Arrays.toString(arr));
+                System.out.println(res1);
+                System.out.println(res2);
+                break;
+            }
+        }
+        System.out.println(succeed ? "Nice!" : "Terrible!");
     }
 }
