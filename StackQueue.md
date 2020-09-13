@@ -26,3 +26,5 @@
 [👉👉  `ValidParentheses ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ValidParentheses.java)
 #### Day 15
 [👉👉  `TwoQueuesStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoQueuesStack.java)
+#### Day 16
+[👉👉  `InorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/InorderTraversal.java)
