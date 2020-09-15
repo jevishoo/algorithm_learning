@@ -29,7 +29,7 @@ public class ZigzagLevelOrder {
 
         if (root == null) return result;
 
-        List<Integer> sublist = null;
+        List<Integer> sublist;
 
         Stack<TreeNode> stack1 = new Stack<>();
         Stack<TreeNode> stack2 = new Stack<>();
