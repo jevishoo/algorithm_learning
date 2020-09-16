@@ -34,3 +34,5 @@
 [👉👉  `PostorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/PostorderTraversal.java)
 #### Day 18
 [👉👉  `ZigzagLevelOrder ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ZigzagLevelOrder.java)
+#### Day 19
+[👉👉  `EvalRPN ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/EvalRPN.java)
