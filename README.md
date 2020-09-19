@@ -4,3 +4,5 @@
 [👆👆👆](https://github.com/jevishoo/algorithm_learning/tree/master/code/StackQueue/StackQueue.md)
 ## 2. [LinkedList](https://github.com/jevishoo/algorithm_learning/tree/master/code/LinkedList/LinkedList.md)
 [👆👆👆](https://github.com/jevishoo/algorithm_learning/tree/master/code/LinkedList/LinkedList.md)
+## 3. [BinaryTree](https://github.com/jevishoo/algorithm_learning/tree/master/code/BinaryTree/BinaryTree.md)
+[👆👆👆](https://github.com/jevishoo/algorithm_learning/tree/master/code/BinaryTree/BinaryTree.md)
