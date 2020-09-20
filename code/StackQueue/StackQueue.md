@@ -40,5 +40,5 @@
 [👉👉  `BSTIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BSTIterator.java)
 #### Day 22
 [👉👉  `SumOfLeftLeaves ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SumOfLeftLeaves.java)
-
-[👉👉  `NestedIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NestedIterator.java)
+#### Day 23
+[👉👉  `BinaryTreeSerializationCheck ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BinaryTreeSerializationCheck.java)
