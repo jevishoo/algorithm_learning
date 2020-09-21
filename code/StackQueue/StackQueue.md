@@ -42,3 +42,5 @@
 [👉👉  `SumOfLeftLeaves ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SumOfLeftLeaves.java)
 #### Day 23
 [👉👉  `BinaryTreeSerializationCheck ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BinaryTreeSerializationCheck.java)
+#### Day 24 Stack Not Solved
+[👉👉  `MiniParser ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MiniParser.java)
