@@ -48,3 +48,7 @@
 👉👉  [`DecodeString ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DecodeString.java)
 #### Day 26
 👉👉  [`NextGreaterElement ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NextGreaterElement.java)
+#### Day 28
+👉👉  [`BaseballGame ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BaseballGame.java)
+
+👉👉  [`DailyTemperatures ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DailyTemperatures.java)
