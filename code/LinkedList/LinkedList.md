@@ -4,3 +4,5 @@
 👉👉  [`NestedIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NestedIterator.java)
 #### Day 27
 👉👉  [`NextGreaterElements ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NextGreaterElements.java)
+#### Day 30
+👉👉  [`AsteroidCollision ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AsteroidCollision.java)
