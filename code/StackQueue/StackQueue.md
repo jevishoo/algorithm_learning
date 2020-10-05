@@ -54,3 +54,7 @@
 👉👉  [`DailyTemperatures ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DailyTemperatures.java)
 #### Question 29
 👉👉  [`ExclusiveTime ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ExclusiveTime.java)
+#### Question 31
+👉👉  [`BackspaceStringCompare ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BackspaceStringCompare.java)
+
+👉👉  [`ParenthesesScore ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ParenthesesScore.java)
