@@ -58,3 +58,5 @@
 👉👉  [`BackspaceStringCompare ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BackspaceStringCompare.java)
 
 👉👉  [`ParenthesesScore ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ParenthesesScore.java)
+#### Question 33
+👉👉  [`FreqStack ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/FreqStack.java)
