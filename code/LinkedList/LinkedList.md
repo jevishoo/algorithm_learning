@@ -6,3 +6,8 @@
 👉👉  [`NextGreaterElements ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NextGreaterElements.java)
 #### Question 30
 👉👉  [`AsteroidCollision ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AsteroidCollision.java)
+#### Question 34
+👉👉  [`PrintCommonPart ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/PrintCommonPart.java)
+
+👉👉  [`RemoveLastKthNode ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveLastKthNode.java)
+
