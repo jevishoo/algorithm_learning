@@ -14,4 +14,5 @@
 👉👉  [`ReverseList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReverseList.java)
 
 👉👉  [`ReversePartList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReversePartList.java)
-
+#### Question 42 method-1
+👉👉  [`JosephusKill ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/JosephusKill.java)
