@@ -76,8 +76,7 @@ public class ListPartition {
         }
         Node[] nodeArr = new Node[i];
         cur = head;
-        for (i = 0; i != nodeArr.length; i++) {
-            nodeArr[i] = cur;
+        for (i = 0; i != nodeArr.length; i++) { nodeArr[i] = cur;
             cur = cur.next;
         }
         arrPartition(nodeArr, pivot);
