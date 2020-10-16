@@ -22,3 +22,5 @@
 👉👉  [`ListPartition ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ListPartition.java)
 #### Question 45
 👉👉  [`CopyListWithRand ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/CopyListWithRand.java)
+#### Question 46
+👉👉  [`AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
