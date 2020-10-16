@@ -15,8 +15,8 @@ public class ReverseList {
             pre = head;
             head = next;
         }
-
-        return pre;
+        head = pre;
+        return head;
     }
 
     public static DoubleNode reverseList(DoubleNode head) {
@@ -29,12 +29,12 @@ public class ReverseList {
             pre = head;
             head = next;
         }
-
-        return pre;
+        head = pre;
+        return head;
     }
 
     public static void main(String[] args) {
-        Node root = new Node(2);
+        Node root = new Node(3);
         root.next = new Node(6);
         root.next.next = new Node(3);
         root.next.next.next = new Node(4);
