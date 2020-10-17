@@ -24,3 +24,5 @@
 👉👉  [`CopyListWithRand ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/CopyListWithRand.java)
 #### Question 46
 👉👉  [`AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
+#### Question 47
+👉👉  [`GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
