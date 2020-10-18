@@ -1,4 +1,4 @@
-package code.LinkedList;
+package code.StackQueue;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -51,7 +51,7 @@ public class SimplifyPath {
 
         StringBuilder res = new StringBuilder();
         while (!list.isEmpty()) {
-            res.append('/').append(String.valueOf(list.pollFirst()));
+            res.append('/').append(list.pollFirst());
         }
 
         return res.toString();

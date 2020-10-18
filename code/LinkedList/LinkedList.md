@@ -1,11 +1,3 @@
-#### Question 14 Need Review ！！！
-👉👉  [`SimplifyPath ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SimplifyPath.java)
-#### Question 22
-👉👉  [`NestedIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NestedIterator.java)
-#### Question 28
-👉👉  [`NextGreaterElements ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NextGreaterElements.java)
-#### Question 32
-👉👉  [`AsteroidCollision ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AsteroidCollision.java)
 #### Question 38-39
 👉👉  [`PrintCommonPart ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/PrintCommonPart.java)
 
@@ -26,3 +18,5 @@
 👉👉  [`AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
 #### Question 47
 👉👉  [`GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
+#### Question 48  Need Review
+👉👉  [`ReverseKNodes ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReverseKNodes.java)

@@ -23,6 +23,8 @@
 👉👉  [`VisibleMountain ★★★★★`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/VisibleMountain.java)
 #### Question 13 
 👉👉  [`ValidParentheses ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ValidParentheses.java)
+#### Question 14 Need Review ！！！
+👉👉  [`SimplifyPath ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SimplifyPath.java)
 #### Question 15
 👉👉  [`TwoQueuesStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoQueuesStack.java)
 #### Question 16
@@ -37,6 +39,8 @@
 👉👉  [`EvalRPN ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/EvalRPN.java)
 #### Question 21 Not Solved ！！！ Learning BST
 👉👉  [`BSTIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BSTIterator.java)
+#### Question 22
+👉👉  [`NestedIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NestedIterator.java)
 #### Question 24
 👉👉  [`SumOfLeftLeaves ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SumOfLeftLeaves.java)
 #### Question 25
@@ -45,12 +49,16 @@
 👉👉  [`MiniParser ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MiniParser.java)
 #### Question 27
 👉👉  [`DecodeString ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DecodeString.java)
+#### Question 28
+👉👉  [`NextGreaterElements ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NextGreaterElements.java)
 #### Question 29
 👉👉  [`NextGreaterElement ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NextGreaterElement.java)
 #### Question 30-31
 👉👉  [`BaseballGame ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BaseballGame.java)
 
 👉👉  [`DailyTemperatures ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DailyTemperatures.java)
+#### Question 32
+👉👉  [`AsteroidCollision ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/AsteroidCollision.java)
 #### Question 33
 👉👉  [`ExclusiveTime ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ExclusiveTime.java)
 #### Question 34-35
