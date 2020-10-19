@@ -20,3 +20,7 @@
 👉👉  [`GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
 #### Question 48  Need Review
 👉👉  [`ReverseKNodes ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReverseKNodes.java)
+#### Question 49  Need Review
+👉👉  [`RemoveRepeat ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveRepeat.java)
+
+👉👉  [`RemoveValue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveValue.java)
