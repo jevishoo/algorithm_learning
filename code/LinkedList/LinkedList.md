@@ -20,13 +20,15 @@
 👉👉  [`GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
 #### Question 48  Need Review
 👉👉  [`ReverseKNodes ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReverseKNodes.java)
-#### Question 49  Need Review
+#### Question 49-50  Need Review
 👉👉  [`RemoveRepeat ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveRepeat.java)
 
 👉👉  [`RemoveValue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveValue.java)
-#### Question 50  Not Solved (better method)
+#### Question 51  Not Solved (better method)
 👉👉  [`ConvertTreeToList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ConvertTreeToList.java)
-#### Question 50
+#### Question 52
 👉👉  [`SelectSort ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SelectSort.java)
-#### Question 51
+#### Question 53-54
 👉👉  [`InsertNumToSortedLoop ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/InsertNumToSortedLoop.java)
+
+👉👉  [`MergeSortedList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MergeSortedList.java)
