@@ -28,3 +28,5 @@
 👉👉  [`ConvertTreeToList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ConvertTreeToList.java)
 #### Question 50
 👉👉  [`SelectSort ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SelectSort.java)
+#### Question 51
+👉👉  [`InsertNumToSortedLoop ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/InsertNumToSortedLoop.java)
