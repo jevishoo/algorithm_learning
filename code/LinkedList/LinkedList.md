@@ -32,3 +32,5 @@
 👉👉  [`InsertNumToSortedLoop ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/InsertNumToSortedLoop.java)
 
 👉👉  [`MergeSortedList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MergeSortedList.java)
+#### Question 55
+👉👉  [`RelocateList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RelocateList.java)
