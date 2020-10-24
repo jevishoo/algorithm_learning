@@ -81,6 +81,39 @@ public class AddLists {
         return result;
     }
 
+    /*
+    leetcode 2 addTwoNumbers
+     */
+    public Node addTwoNumbers(Node l1, Node l2) {
+        int add = 0;
+        Node result = null;
+        Node cur = null;
+        while (l1 != null || l2 != null) {
+            int n1 = l1 == null ? 0 : l1.value;
+            int n2 = l2 == null ? 0 : l2.value;
+
+            int n = n1 + n2 + add;
+
+            if (result == null) {
+                result = new Node(n % 10);
+                cur = result;
+            } else {
+                cur.next = new Node(n % 10);
+                cur = cur.next;
+            }
+
+            add = n / 10;
+            l1 = l1 == null ? null : l1.next;
+            l2 = l2 == null ? null : l2.next;
+        }
+
+        if (add == 1) {
+            cur.next = new Node(1);
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
         Node node1 = new Node(9);
         node1.next = new Node(3);
