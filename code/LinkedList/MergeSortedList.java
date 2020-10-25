@@ -30,7 +30,23 @@ public class MergeSortedList {
                 cur2 = next;
             }
         }
-        pre.next = cur1 == null ? cur2 : cur1;
+//        pre.next = cur1 == null ? cur2 : cur1;
+        pre.next = cur2 == null ? cur1 : cur2;
         return head;
+    }
+
+    public static void main(String[] args) {
+        Node root1 = new Node(1);
+        root1.next = new Node(2);
+        root1.next.next = new Node(4);
+
+        Node root2 = new Node(3);
+        root2.next = new Node(5);
+
+        Node node = merge(root1, root2);
+        while (node != null) {
+            System.out.println(node.value);
+            node = node.next;
+        }
     }
 }
