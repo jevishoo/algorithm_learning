@@ -1,7 +1,7 @@
 #### Question 1 
-👉👉  [`MinStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MinStack.java)
+👉👉  [**leetcode 155** `MinStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MinStack.java)
 #### Question 2
-👉👉  [`TwoStacksQueue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoStacksQueue.java)
+👉👉  [**leetcode 232** `TwoStacksQueue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoStacksQueue.java)
 #### Question 3 Need Review
 👉👉  [`RecursionReverseStack ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/RecursionReverseStack.java)
 #### Question 4 
@@ -22,48 +22,48 @@
 #### Question 12 Need Review ！！！
 👉👉  [`VisibleMountain ★★★★★`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/VisibleMountain.java)
 #### Question 13 
-👉👉  [`ValidParentheses ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ValidParentheses.java)
+👉👉  [**leetcode 20** `ValidParentheses ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ValidParentheses.java)
 #### Question 14 Need Review ！！！
-👉👉  [`SimplifyPath ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SimplifyPath.java)
+👉👉  [**leetcode 71** `SimplifyPath ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SimplifyPath.java)
 #### Question 15
-👉👉  [`TwoQueuesStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoQueuesStack.java)
+👉👉  [**leetcode 225** `TwoQueuesStack ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/TwoQueuesStack.java)
 #### Question 16
-👉👉  [`InorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/InorderTraversal.java)
+👉👉  [**leetcode 94** `InorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/InorderTraversal.java)
 #### Question 17-18
-👉👉  [`PreorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/PreorderTraversal.java)
+👉👉  [**leetcode 144** `PreorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/PreorderTraversal.java)
 
-👉👉  [`PostorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/PostorderTraversal.java)
+👉👉  [**leetcode 145** `PostorderTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/PostorderTraversal.java)
 #### Question 19
-👉👉  [`ZigzagLevelOrder ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ZigzagLevelOrder.java)
+👉👉  [**leetcode 103** `ZigzagLevelOrder ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ZigzagLevelOrder.java)
 #### Question 20
-👉👉  [`EvalRPN ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/EvalRPN.java)
+👉👉  [**leetcode 150** `EvalRPN ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/EvalRPN.java)
 #### Question 21 Not Solved ！！！ Learning BST
-👉👉  [`BSTIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BSTIterator.java)
+👉👉  [**leetcode 173** `BSTIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BSTIterator.java)
 #### Question 22
-👉👉  [`NestedIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NestedIterator.java)
+👉👉  [**leetcode 341** `NestedIterator ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NestedIterator.java)
 #### Question 24
-👉👉  [`SumOfLeftLeaves ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SumOfLeftLeaves.java)
+👉👉  [**leetcode 404* `SumOfLeftLeaves ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/SumOfLeftLeaves.java)
 #### Question 25
-👉👉  [`BinaryTreeSerializationCheck ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BinaryTreeSerializationCheck.java)
+👉👉  [**leetcode 331** `BinaryTreeSerializationCheck ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BinaryTreeSerializationCheck.java)
 #### Question 26 Stack Not Solved
-👉👉  [`MiniParser ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MiniParser.java)
+👉👉  [**leetcode 385** `MiniParser ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/MiniParser.java)
 #### Question 27
-👉👉  [`DecodeString ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DecodeString.java)
+👉👉  [**leetcode 394** `DecodeString ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DecodeString.java)
 #### Question 28
-👉👉  [`NextGreaterElements ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NextGreaterElements.java)
+👉👉  [**leetcode 496** `NextGreaterElements ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NextGreaterElements.java)
 #### Question 29
-👉👉  [`NextGreaterElement ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NextGreaterElement.java)
+👉👉  [**leetcode 503** `NextGreaterElement ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/NextGreaterElement.java)
 #### Question 30-31
-👉👉  [`BaseballGame ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BaseballGame.java)
+👉👉  [**leetcode 682** `BaseballGame ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BaseballGame.java)
 
-👉👉  [`DailyTemperatures ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DailyTemperatures.java)
+👉👉  [**leetcode 739** `DailyTemperatures ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/DailyTemperatures.java)
 #### Question 32
-👉👉  [`AsteroidCollision ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/AsteroidCollision.java)
+👉👉  [**leetcode 735** `AsteroidCollision ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/AsteroidCollision.java)
 #### Question 33
-👉👉  [`ExclusiveTime ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ExclusiveTime.java)
+👉👉  [**leetcode 636** `ExclusiveTime ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ExclusiveTime.java)
 #### Question 34-35
-👉👉  [`BackspaceStringCompare ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BackspaceStringCompare.java)
+👉👉  [**leetcode 844** `BackspaceStringCompare ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/BackspaceStringCompare.java)
 
-👉👉  [`ParenthesesScore ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ParenthesesScore.java)
+👉👉  [**leetcode 856** `ParenthesesScore ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ParenthesesScore.java)
 #### Question 36 Need Review
-👉👉  [`FreqStack ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/FreqStack.java)
+👉👉  [**leetcode 895** `FreqStack ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/FreqStack.java)
