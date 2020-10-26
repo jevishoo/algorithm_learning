@@ -34,3 +34,7 @@
 👉👉  [`MergeSortedList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MergeSortedList.java)
 #### Question 55
 👉👉  [`RelocateList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RelocateList.java)
+#### Question 56-57
+👉👉  [`MergeKLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MergeKLists.java)
+
+👉👉  [`SwapPairs ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SwapPairs.java)
