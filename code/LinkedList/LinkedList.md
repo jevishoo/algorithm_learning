@@ -1,5 +1,5 @@
 #### Question 38-39
-👉👉  [`PrintCommonPart ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/PrintCommonPart.java)
+👉👉  ★☆☆☆☆ [`PrintCommonPart`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/PrintCommonPart.java)
 
 👉👉  [`RemoveLastKthNode ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveLastKthNode.java)
 #### Question 40-41
@@ -13,9 +13,9 @@
 #### Question 44
 👉👉  [`ListPartition ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ListPartition.java)
 #### Question 45
-👉👉  **leetcode 2** ★★☆☆☆ [`CopyListWithRand`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/CopyListWithRand.java)
+👉👉  ★★☆☆☆ [`CopyListWithRand`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/CopyListWithRand.java)
 #### Question 46
-👉👉  [`AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
+👉👉  **leetcode 2** ★☆☆☆☆ [`AddLists`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
 #### Question 47
 👉👉  [`GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
 #### Question 48  Need Review
