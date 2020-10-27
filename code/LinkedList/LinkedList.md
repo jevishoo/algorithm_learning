@@ -21,7 +21,7 @@
 #### Question 48  Need Review
 👉👉  [`ReverseKNodes ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReverseKNodes.java)
 #### Question 49-50  Need Review
-👉👉  [`RemoveRepeat ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveRepeat.java)
+👉👉  [**leetcode 83** `RemoveRepeat ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveRepeat.java)
 
 👉👉  [`RemoveValue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveValue.java)
 #### Question 51  Not Solved (better method)
@@ -38,3 +38,8 @@
 👉👉  [**leetcode 23** `MergeKLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MergeKLists.java)
 
 👉👉  [**leetcode 24** `SwapPairs ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SwapPairs.java)
+#### Question 58-59
+👉👉  [**leetcode 61** `RotateRight ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RotateRight.java)
+
+👉👉  [**leetcode 82** `DeleteDuplicates ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/DeleteDuplicates.java)
+

@@ -32,6 +32,19 @@ public class RemoveRepeat {
     }
 
     /*
+    Sorted List
+     */
+    public static void removeSortedRepeat(Node head) {
+        Node cur = head;
+        while (cur != null && cur.next != null) {
+            int data = cur.value;
+            if (data == cur.next.value) {
+                cur.next = cur.next.next;
+            } else cur = cur.next;
+        }
+    }
+
+    /*
     空间复杂度为 O(1)
      */
     public static void removeRepeat1(Node head) {
@@ -63,7 +76,7 @@ public class RemoveRepeat {
         root.next.next.next.next.next.next.next = new Node(1);
         root.next.next.next.next.next.next.next.next = new Node(1);
 
-        removeRepeat(root);
+        removeRepeat1(root);
         while (root != null) {
             System.out.println(root.value);
             root = root.next;
