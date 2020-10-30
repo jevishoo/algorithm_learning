@@ -13,7 +13,7 @@
 #### Question 44
 👉👉  [**leetcode 86** `ListPartition ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ListPartition.java)
 #### Question 45
-👉👉  [`CopyListWithRand ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/CopyListWithRand.java)
+👉👉  [**leetcode 138** `CopyListWithRand ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/CopyListWithRand.java)
 #### Question 46
 👉👉  [**leetcode 2** `AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
 #### Question 47
@@ -25,7 +25,7 @@
 
 👉👉  [`RemoveValue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveValue.java)
 #### Question 51  Not Solved (better method)
-👉👉  [`ConvertTreeToList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ConvertTreeToList.java)
+👉👉  [`ConvertBSTToList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ConvertBSTToList.java)
 #### Question 52
 👉👉  [`SelectSort ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SelectSort.java)
 #### Question 53-54
@@ -42,4 +42,5 @@
 👉👉  [**leetcode 61** `RotateRight ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RotateRight.java)
 
 👉👉  [**leetcode 82** `DeleteDuplicates ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/DeleteDuplicates.java)
-
+#### Question 60
+👉👉  [**leetcode 109** `ConvertListToBST ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ConvertListToBST.java)

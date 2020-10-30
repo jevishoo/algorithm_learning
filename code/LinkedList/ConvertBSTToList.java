@@ -10,7 +10,7 @@ import java.util.Queue;
  * <p>
  * 如何实现 时间复杂度为O(N)，额外空间复杂度为O(h)，h 为二叉树的高度的方法？
  */
-public class ConvertTreeToList {
+public class ConvertBSTToList {
     public static class TreeNode {
         public int value;
         public TreeNode left;
