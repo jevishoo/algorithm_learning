@@ -17,7 +17,7 @@
 #### Question 46
 👉👉  [**leetcode 2** `AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
 #### Question 47
-👉👉  [`GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
+👉👉  [**leetcode 141/142** `GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
 #### Question 48  Need Review
 👉👉  [`ReverseKNodes ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReverseKNodes.java)
 #### Question 49-50  Need Review
@@ -44,3 +44,5 @@
 👉👉  [**leetcode 82** `DeleteDuplicates ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/DeleteDuplicates.java)
 #### Question 60
 👉👉  [**leetcode 109** `ConvertListToBST ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ConvertListToBST.java)
+#### Question 61
+👉👉  [**leetcode 143** `ReorderList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReorderList.java)
