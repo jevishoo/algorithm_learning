@@ -9,41 +9,10 @@ package code.LinkedList;
  */
 public class SelectSort {
     public static Node selectSort(Node head) {
-        Node result = null;
-
-        Node cur = head;
-        while (cur != null) {
-            Node tmp = result;
-
-            if (tmp == null) {
-                result = new Node(cur.value);
-            } else {
-                Node small = null;
-                while (tmp != null && tmp.value < cur.value) {
-                    small = tmp;
-                    tmp = tmp.next;
-                }
-
-                if (small != null) {
-                    small.next = new Node(cur.value);
-                    small.next.next = tmp;
-                } else {
-                    Node pre = new Node(cur.value);
-                    pre.next = result;
-                    result = pre;
-                }
-            }
-            cur = cur.next;
-        }
-        return result;
-    }
-
-
-    public static Node selectSort1(Node head) {
         Node tail = null; // 排序部分尾部
         Node cur = head; // 未排序部分头部
-        Node smallPre = null; // 最小节点的前一个节点
-        Node small = null; // 最小的节点
+        Node smallPre; // 最小节点的前一个节点
+        Node small; // 最小的节点
         while (cur != null) {
             small = cur;
             smallPre = getSmallestPreNode(cur);
@@ -89,7 +58,6 @@ public class SelectSort {
 
 
         Node node = selectSort(root);
-        System.out.println("======");
         while (node != null) {
             System.out.println(node.value);
             node = node.next;
