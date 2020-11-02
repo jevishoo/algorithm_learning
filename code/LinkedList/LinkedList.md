@@ -9,7 +9,7 @@
 #### Question 42 method-1
 👉👉  [`JosephusKill ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/JosephusKill.java)
 #### Question 43
-👉👉  [`Palindrome ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/Palindrome.java)
+👉👉  [**leetcode 234** `Palindrome ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/Palindrome.java)
 #### Question 44
 👉👉  [**leetcode 86** `ListPartition ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ListPartition.java)
 #### Question 45
@@ -17,13 +17,13 @@
 #### Question 46
 👉👉  [**leetcode 2** `AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
 #### Question 47
-👉👉  [**leetcode 141/142** `GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
+👉👉  [**leetcode 141/142/160** `GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
 #### Question 48  Need Review
 👉👉  [`ReverseKNodes ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReverseKNodes.java)
 #### Question 49-50  Need Review
 👉👉  [**leetcode 83** `RemoveRepeat ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveRepeat.java)
 
-👉👉  [`RemoveValue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveValue.java)
+👉👉  [**leetcode 203** `RemoveValue ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveValue.java)
 #### Question 51  Not Solved (better method)
 👉👉  [`ConvertBSTToList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ConvertBSTToList.java)
 #### Question 52

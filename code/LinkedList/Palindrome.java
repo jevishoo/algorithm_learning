@@ -81,13 +81,33 @@ public class Palindrome {
         return res;
     }
 
+    public static boolean isPalindrome2(Node head) {
+        Node slow = head, fast = head;
+        Node prev = null;
+        while (fast != null && fast.next != null) {
+            Node temp = slow.next;
+            fast = fast.next.next;
+            slow.next = prev;
+            prev = slow;
+            slow = temp;
+        }
+        if (fast != null)
+            slow = slow.next;
+        while (prev != null) {
+            if (prev.value != slow.value) return false;
+            prev = prev.next;
+            slow = slow.next;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         Node root = new Node(5);
         root.next = new Node(1);
         root.next.next = new Node(3);
         root.next.next.next = new Node(1);
-        root.next.next.next.next = new Node(5);
+        root.next.next.next.next = new Node(4);
 
-        System.out.println(isPalindrome(root));
+        System.out.println(isPalindrome2(root));
     }
 }
