@@ -15,7 +15,7 @@
 #### Question 45
 👉👉  [**leetcode 138** `CopyListWithRand ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/CopyListWithRand.java)
 #### Question 46
-👉👉  [**leetcode 2** `AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
+👉👉  [**leetcode 2/445** `AddLists ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/AddLists.java)
 #### Question 47
 👉👉  [**leetcode 141/142/160** `GetIntersectNode ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/GetIntersectNode.java)
 #### Question 48  Need Review
@@ -50,7 +50,9 @@
 👉👉  [**leetcode 147** `InsertionSort ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/InsertionSort.java)
 
 👉👉  [**leetcode 148** `SortList ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SortList.java)
-#### Question 64
-👉👉  [**leetcode 328** `OddEvenList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/OddEvenList/ReorderList.java)
+#### Question 64-65
+👉👉  [**leetcode 328** `OddEvenList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/OddEvenList.java)
 
-👉👉  [**leetcode 430** `FlattenMultilevelList ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/OddEvenList/FlattenMultilevelList.java)
+👉👉  [**leetcode 430** `FlattenMultilevelList ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/FlattenMultilevelList.java)
+#### Question 66
+👉👉  [**leetcode 707** `MyLinkedList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MyLinkedList.java)
