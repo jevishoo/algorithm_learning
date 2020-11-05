@@ -56,3 +56,5 @@
 👉👉  [**leetcode 430** `FlattenMultilevelList ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/FlattenMultilevelList.java)
 #### Question 66
 👉👉  [**leetcode 707** `MyLinkedList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MyLinkedList.java)
+#### Question 67
+👉👉  [**leetcode 725** `SplitListToParts ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SplitListToParts.java)
