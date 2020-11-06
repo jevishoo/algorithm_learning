@@ -58,3 +58,7 @@
 👉👉  [**leetcode 707** `MyLinkedList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MyLinkedList.java)
 #### Question 67
 👉👉  [**leetcode 725** `SplitListToParts ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SplitListToParts.java)
+#### Question 68
+👉👉  [**leetcode 876** `MidOfList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MidOfList.java)
+
+👉👉  [**leetcode 817** `NumComponents ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NumComponents.java)
