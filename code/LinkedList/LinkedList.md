@@ -64,3 +64,5 @@
 👉👉  [**leetcode 817** `NumComponents ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NumComponents.java)
 #### Question 69
 👉👉  [**leetcode 876** `NextLargerNodes ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NextLargerNodes.java)
+#### Question 70
+👉👉  [**leetcode 1171** `RemoveZeroSumSublists ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveZeroSumSublists.java)
