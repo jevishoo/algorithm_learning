@@ -66,3 +66,5 @@
 👉👉  [**leetcode 876** `NextLargerNodes ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NextLargerNodes.java)
 #### Question 70
 👉👉  [**leetcode 1171** `RemoveZeroSumSublists ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveZeroSumSublists.java)
+#### Question 70
+👉👉  [**leetcode 1367** `SubPath ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SubPath.java)
