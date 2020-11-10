@@ -52,6 +52,29 @@ public class PostorderTraversal {
         return list;
     }
 
+    public static List<Integer> postorderTraversalWithSingleStack(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        List<Integer> list = new ArrayList<>();
+
+        stack.push(root);
+
+        TreeNode c;
+        while (!stack.isEmpty()) {
+            c = stack.peek();
+
+            if (c.left != null && c.left != root && c.right != root) {
+                stack.push(c.left);
+            } else if (c.right != null && c.right != root) {
+                stack.push(c.right);
+            } else {
+                list.add(stack.pop().val);
+                root = c;
+            }
+        }
+
+        return list;
+    }
+
 
     public static void main(String[] args) {
         TreeNode head = new TreeNode(5);
@@ -70,6 +93,8 @@ public class PostorderTraversal {
         System.out.println();
         List<Integer> lst = postorderTraversal(head);
         System.out.println(lst);
+        List<Integer> list = postorderTraversalWithSingleStack(head);
+        System.out.println(list);
     }
 
 }
