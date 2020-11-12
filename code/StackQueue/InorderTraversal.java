@@ -1,5 +1,7 @@
 package code.StackQueue;
 
+import code.BinaryTree.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -9,28 +11,18 @@ import java.util.Stack;
  * @Created by Jevis_Hoo
  * @Description Inorder Traversal using Stack
  * <p>
- * Given a binary tree, return the inorder traversal of its nodes' values.
+ * Given a binary tree, return the inorder traversal of its nodes' valueues.
  * <p>
  * Recursive solution is trivial, could you do it iteratively?
  */
 
 public class InorderTraversal {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public static void inOrderRecur(TreeNode head) {
         if (head == null) {
             return;
         }
         inOrderRecur(head.left);
-        System.out.print(head.val + " ");
+        System.out.print(head.value + " ");
         inOrderRecur(head.right);
     }
 
@@ -43,7 +35,7 @@ public class InorderTraversal {
                 root = root.left;
             } else {
                 root = stack.pop();
-                list.add(root.val);
+                list.add(root.value);
                 root = root.right;
             }
         }
@@ -60,7 +52,7 @@ public class InorderTraversal {
                 root = root.left;
             } else {
                 root = stack.pop();
-                list.add(root.val);
+                list.add(root.value);
                 root = root.right;
             }
         }

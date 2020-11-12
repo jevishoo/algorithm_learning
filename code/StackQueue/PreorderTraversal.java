@@ -1,5 +1,7 @@
 package code.StackQueue;
 
+import code.BinaryTree.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -10,21 +12,11 @@ import java.util.Stack;
  * @Description
  */
 public class PreorderTraversal {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public static void preOrderRecur(TreeNode head) {
         if (head == null) {
             return;
         }
-        System.out.print(head.val + " ");
+        System.out.print(head.value + " ");
         preOrderRecur(head.left);
         preOrderRecur(head.right);
     }
@@ -35,7 +27,7 @@ public class PreorderTraversal {
         while (root != null || !stack.isEmpty()) {
             if (root != null) {
                 stack.push(root);
-                list.add(root.val);
+                list.add(root.value);
                 root = root.left;
             } else {
                 root = stack.pop();

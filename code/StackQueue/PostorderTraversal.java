@@ -1,5 +1,7 @@
 package code.StackQueue;
 
+import code.BinaryTree.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -10,23 +12,13 @@ import java.util.Stack;
  * @Description
  */
 public class PostorderTraversal {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public static void postOrderRecur(TreeNode head) {
         if (head == null) {
             return;
         }
         postOrderRecur(head.left);
         postOrderRecur(head.right);
-        System.out.print(head.val + " ");
+        System.out.print(head.value + " ");
     }
 
     public static List<Integer> postorderTraversal(TreeNode root) {
@@ -37,7 +29,7 @@ public class PostorderTraversal {
         while (root != null || !stack.isEmpty()) {
             if (root != null) {
                 stack.push(root);
-                help.push(root.val);
+                help.push(root.value);
                 root = root.right;
             } else {
                 root = stack.pop();
@@ -67,7 +59,7 @@ public class PostorderTraversal {
             } else if (c.right != null && c.right != root) {
                 stack.push(c.right);
             } else {
-                list.add(stack.pop().val);
+                list.add(stack.pop().value);
                 root = c;
             }
         }

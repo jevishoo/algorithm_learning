@@ -6,9 +6,9 @@ package code.BinaryTree;
  * @Description
  */
 public class TreeNode {
-    int value;
-    TreeNode left;
-    TreeNode right;
+    public int value;
+    public TreeNode left;
+    public TreeNode right;
 
     public TreeNode() {
     }
