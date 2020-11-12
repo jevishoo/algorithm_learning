@@ -58,13 +58,13 @@
 👉👉  [**leetcode 707** `MyLinkedList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MyLinkedList.java)
 #### Question 67
 👉👉  [**leetcode 725** `SplitListToParts ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SplitListToParts.java)
-#### Question 68
+#### Question 68-69
 👉👉  [**leetcode 876** `MidOfList ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/MidOfList.java)
 
 👉👉  [**leetcode 817** `NumComponents ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NumComponents.java)
-#### Question 69
+#### Question 70
 👉👉  [**leetcode 876** `NextLargerNodes ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/NextLargerNodes.java)
-#### Question 70
+#### Question 71
 👉👉  [**leetcode 1171** `RemoveZeroSumSublists ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveZeroSumSublists.java)
-#### Question 70
+#### Question 72
 👉👉  [**leetcode 1367** `SubPath ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SubPath.java)
