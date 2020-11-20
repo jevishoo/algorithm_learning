@@ -43,15 +43,16 @@ public class CumulativeSum {
             if (map.containsKey(sum - k)) {
                 maxLength = Math.max(maxLength, i - map.get(sum - k));
             }
-            if (!map.containsKey(sum)) {
-                map.put(sum, i);
-            }
+            map.putIfAbsent(sum, i);
+//            if (!map.containsKey(sum)) {
+//                map.put(sum, i);
+//            }
         }
         return maxLength;
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{1, 2, 3, 3};
+        int[] array = new int[]{1, 2, 3, 3, -1, 3, 1, 5, 6, -3, -5, 1, 5, 3, -2, -7, 1, 3};
         System.out.println(getMaxLengthWithPositiveSortedArray(array, 6));
         System.out.println(getMaxLengthWithSortedArray(array, 6));
     }
