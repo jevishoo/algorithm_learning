@@ -6,3 +6,7 @@
 👉👉  [`SerialByLevel ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/SerialByLevel.java)
 #### Question 75
 👉👉  [`MorrisTraversal ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MorrisTraversal.java)
+#### Question 77
+👉👉  [`CumulativeSum ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/CumulativeSum.java)
+
+👉👉  [`MaxBST ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MaxBST.java)
