@@ -12,3 +12,7 @@
 👉👉  [`MaxBST ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MaxBST.java)
 #### Question 79
 👉👉  [`MaxBSTTopoSize ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MaxBSTTopoSize.java)
+#### Question 80
+👉👉  [`LevelTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/LevelTraversal.java)
+
+👉👉  [`LevelTraversal ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/LevelTraversal.java)

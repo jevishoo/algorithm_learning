@@ -13,8 +13,8 @@ public class MaxBSTTopoSize {
             return 0;
         }
         int max = maxTopo(root, root);
-        max = Math.max(max,getMaxBSTTopoSize1(root.left));
-        max = Math.max(max,getMaxBSTTopoSize1(root.right));
+        max = Math.max(max, getMaxBSTTopoSize1(root.left));
+        max = Math.max(max, getMaxBSTTopoSize1(root.right));
         return max;
     }
 
@@ -75,22 +75,22 @@ public class MaxBSTTopoSize {
         return Math.max(lBST + rBST + 1, Math.max(ls, rs));
     }
 
-    private static int modifyMap(TreeNode head, int value, HashMap<TreeNode, Record> m, boolean flag) {
-        if (head == null || (!m.containsKey(head))) {
+    private static int modifyMap(TreeNode sub, int hValue, HashMap<TreeNode, Record> map, boolean isLeftChild) {
+        if (sub == null || (!map.containsKey(sub))) {
             return 0;
         }
-        Record r = m.get(head);
-        if ((flag && head.value > value) || ((!flag) && head.value < value)) {
-            m.remove(head);
+        Record r = map.get(sub);
+        if ((isLeftChild && sub.value > hValue) || ((!isLeftChild) && sub.value < hValue)) {
+            map.remove(sub);
             return r.left + r.right + 1;
         } else {
-            int minus = modifyMap(flag ? head.right : head.left, value, m, flag);
-            if (flag) {
+            int minus = modifyMap(isLeftChild ? sub.right : sub.left, hValue, map, isLeftChild);
+            if (isLeftChild) {
                 r.right = r.right - minus;
             } else {
                 r.left = r.left - minus;
             }
-            m.put(head, r);
+            map.put(sub, r);
             return minus;
         }
     }
