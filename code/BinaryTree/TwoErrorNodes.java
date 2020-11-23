@@ -101,12 +101,25 @@ public class TwoErrorNodes {
                 parents[0].right = errors[1];
             }
 
-            if (errors[0].left == errors[1]) {
-                errors[1].left = errors[0];
-                errors[1].right = errors[0].right;
-            }
+            errors[1].left = errors[0].left;
+            errors[1].right = errors[0];
+
             errors[0].left = lcTmp;
             errors[0].right = rcTmp;
+        } else if (parents[0] == errors[1]) { //子父元素交换
+            lcTmp = errors[0].left;
+            rcTmp = errors[0].right;
+            if (parents[1].left == errors[1]) {
+                parents[1].left = errors[0];
+            } else {
+                parents[1].right = errors[0];
+            }
+
+            errors[0].left = errors[1];
+            errors[0].right = errors[1].right;
+
+            errors[1].left = lcTmp;
+            errors[1].right = rcTmp;
         } else {
             if (parents[0].left == errors[0]) {
                 parents[0].left = errors[1];
