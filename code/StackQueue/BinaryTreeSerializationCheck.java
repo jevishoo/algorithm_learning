@@ -1,5 +1,7 @@
 package code.StackQueue;
 
+import code.BinaryTree.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -18,21 +20,11 @@ import java.util.Stack;
  * 思路：‘#’ 总比 非空节点多一位
  */
 public class BinaryTreeSerializationCheck {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public static String serialByPre(TreeNode root) {
         if (root == null) {
             return "#,";
         }
-        String result = root.val + ",";
+        String result = root.value + ",";
         result += serialByPre(root.left);
         result += serialByPre(root.right);
         return result;
