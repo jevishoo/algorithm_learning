@@ -18,3 +18,5 @@
 👉👉  [`TwoErrorNodes ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/TwoErrorNodes.java)
 #### Question 82
 👉👉  [`ContainsTree ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/ContainsTree.java)
+#### Question 84
+👉👉  [`isBalanceTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/isBalanceTree.java)
