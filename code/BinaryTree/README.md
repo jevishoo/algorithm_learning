@@ -20,3 +20,5 @@
 👉👉  [`ContainsTree ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/ContainsTree.java)
 #### Question 84
 👉👉  [`isBalanceTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/isBalanceTree.java)
+#### Question 85
+👉👉  [`RebuildBSTByPos ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/RebuildBSTByPos.java)
