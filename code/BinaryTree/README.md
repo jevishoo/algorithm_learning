@@ -22,3 +22,5 @@
 👉👉  [`isBalanceTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/isBalanceTree.java)
 #### Question 85
 👉👉  [`RebuildBSTByPos ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/RebuildBSTByPos.java)
+#### Question 86
+👉👉  [`CBTCheck ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/CBTCheck.java)

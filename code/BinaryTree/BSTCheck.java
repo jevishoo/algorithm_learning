@@ -9,42 +9,69 @@ package code.BinaryTree;
  */
 
 public class BSTCheck {
-    public static class TreeNode {
-        TreeNode left;
-        TreeNode right;
-        int val;
-
-        public TreeNode(int val) {
-            this.val = val;
-        }
-
-        public TreeNode() {
-        }
-
-    }
-
     public static boolean isBST(TreeNode root, int min, int max) {
         if (root == null) return true;
 
-        return root.val > min
-                && root.val < max
-                && isBST(root.left, min, root.val)
-                && isBST(root.right, root.val, max);
+        return root.value > min
+                && root.value < max
+                && isBST(root.left, min, root.value)
+                && isBST(root.right, root.value, max);
     }
 
 
     private static int help = Integer.MIN_VALUE;
 
-    public static boolean isBST(TreeNode root) {
+    public static boolean isBSTByRecursion(TreeNode root) {
         if (root == null) return true;
 
-        if (!isBST(root.left)) return false;
+        if (!isBSTByRecursion(root.left))
+            return false;
 
-        if (root.val <= help) return false;
+        if (root.value <= help)
+            return false;
 
-        help = root.val;
+        help = root.value;
 
-        return isBST(root.right);
+        return isBSTByRecursion(root.right);
+    }
+
+
+    private static boolean isBST(TreeNode head) {
+        if (head == null)
+            return true;
+
+        boolean res = true;
+        int pre = Integer.MIN_VALUE;
+        TreeNode cur = head;
+        TreeNode mostRight;
+        while (cur != null) {
+            mostRight = cur.left;
+            if (mostRight != null) {
+                while (mostRight.right != null && mostRight.right != cur) {
+                    mostRight = mostRight.right;
+                }
+
+                if (mostRight.right == null) {
+                    mostRight.right = cur;
+                    cur = cur.left;
+                } else {
+                    mostRight.right = null;
+                    if (cur.value <= pre) {
+                        res = false;
+                    }
+                    pre = cur.value;
+                    cur = cur.right;
+                }
+            } else {
+                if (cur.value <= pre) {
+                    res = false;
+                }
+                pre = cur.value;
+                cur = cur.right;
+            }
+        }
+        System.out.println();
+        return res;
     }
 
     public static void main(String[] args) {
@@ -58,6 +85,7 @@ public class BSTCheck {
         head.right.right = new TreeNode(35);
 
         System.out.println(isBST(head, minNum, maxNum));
+        System.out.println(isBSTByRecursion(head));
         System.out.println(isBST(head));
 
     }
