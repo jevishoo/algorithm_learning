@@ -19,20 +19,6 @@ public class TreeNode {
         this.value = value;
     }
 
-    public TreeNode(int value, TreeNode left, TreeNode right) {
-        this.value = value;
-        this.left = left;
-        this.right = right;
-    }
-
-
-    public TreeNode(int value, TreeNode left, TreeNode right, TreeNode child, TreeNode parent) {
-        this.value = value;
-        this.left = left;
-        this.right = right;
-        this.child = child;
-        this.parent = parent;
-    }
 
     public TreeNode(int value, TreeNode parent) {
         this.value = value;
