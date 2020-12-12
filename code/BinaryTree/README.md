@@ -24,3 +24,7 @@
 👉👉  [`RebuildBSTByPos ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/RebuildBSTByPos.java)
 #### Question 86
 👉👉  [`CBTCheck ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/CBTCheck.java)
+#### Question 87
+👉👉  [`GenerateBST ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/GenerateBST.java)
+#### Question 88
+👉👉  [`NextTreeNode ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NextTreeNode.java)
