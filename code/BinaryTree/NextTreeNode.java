@@ -42,9 +42,9 @@ public class NextTreeNode {
         TreeNode node8 = new TreeNode(8, node9);
         TreeNode node10 = new TreeNode(10, node9);
 
-        TreeNode node2 = new TreeNode(2,node1);
-        TreeNode node5 = new TreeNode(5,node4);
-        TreeNode node7 = new TreeNode(7,node8);
+        TreeNode node2 = new TreeNode(2, node1);
+        TreeNode node5 = new TreeNode(5, node4);
+        TreeNode node7 = new TreeNode(7, node8);
 
         node6.left = node3;
         node6.right = node9;
