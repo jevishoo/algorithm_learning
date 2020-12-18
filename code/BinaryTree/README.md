@@ -34,3 +34,5 @@
 👉👉  [`LowestAncestor ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/LowestAncestor.java)
 #### Question 92
 👉👉  [`LowestAncestorByTarjan ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/LowestAncestorByTarjan.java)
+#### Question 93
+👉👉  [`MaxDistance ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MaxDistance.java)
