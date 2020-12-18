@@ -32,3 +32,5 @@
 👉👉  [`LowestAncestor ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/LowestAncestor.java)
 #### Question 90
 👉👉  [`LowestAncestor ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/LowestAncestor.java)
+#### Question 92
+👉👉  [`LowestAncestorByTarjan ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/LowestAncestorByTarjan.java)
