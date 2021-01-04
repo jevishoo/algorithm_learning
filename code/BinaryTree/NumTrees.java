@@ -6,16 +6,17 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @Date 2020/12/25 14:52
- * @Created by Jevis_Hoo
- * @Description 统计和生成所有不同的二叉树
+ * @author Jevis_Hoo
+ * @date 2020/12/25 14:52
+ * @description 统计和生成所有不同的二叉树
  * <p>
  * 给定一个整数 N，如果 N<1，代表空树结构，否则代表中序遍历的结果为 {1,2,3,…，N}。
  * 返回可能的二叉树结构有多少
  */
 public class NumTrees {
     public static int getTreesNum(int N) {
-        if (N < 2) {
+        int minNodes = 2;
+        if (N < minNodes) {
             return 1;
         }
 
@@ -65,9 +66,9 @@ public class NumTrees {
 
 
     public static void main(String[] args) {
-        int N = 3;
-        System.out.println(getTreesNum(N));
-        for (TreeNode head : generateTrees(N)) {
+        int n = 3;
+        System.out.println(getTreesNum(n));
+        for (TreeNode head : generateTrees(n)) {
             System.out.println(PreorderTraversal.preorderTraversal(head));
         }
     }
