@@ -14,22 +14,22 @@ import java.util.List;
  * 返回可能的二叉树结构有多少
  */
 public class NumTrees {
-    public static int getTreesNum(int N) {
+    public static int getTreesNum(int n) {
         int minNodes = 2;
-        if (N < minNodes) {
+        if (n < minNodes) {
             return 1;
         }
 
-        int[] nums = new int[N + 1];
+        int[] nums = new int[n + 1];
 
         nums[0] = 1;
-        for (int i = 1; i < N + 1; i++) {
+        for (int i = 1; i < n + 1; i++) {
             for (int j = 1; j < i + 1; j++) {
                 nums[i] += nums[j - 1] * nums[i - j];
             }
         }
 
-        return nums[N];
+        return nums[n];
     }
 
     /**
