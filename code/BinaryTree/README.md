@@ -40,3 +40,5 @@
 👉👉  [`MaxHappy ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MaxHappy.java)
 #### Question 95 Need Review
 👉👉  [`GetPosArray ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/GetPosArray.java)
+#### Question 96
+👉👉  [`NumTrees ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NumTrees.java)
