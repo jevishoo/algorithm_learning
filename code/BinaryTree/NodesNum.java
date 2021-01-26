@@ -12,7 +12,7 @@ public class NodesNum {
         }
 
         int height = mostLeftLevel(head, 0);
-        return bs(head, 0, height);
+        return bs(head, 1, height);
     }
 
     private static int bs(TreeNode head, int level, int height) {
@@ -20,10 +20,10 @@ public class NodesNum {
             return 1;
         }
 
-        if (mostLeftLevel(head.right, level + 1) == height) {
-            return (1 << (height - level - 1)) + bs(head.right, level + 1, height);
+        if (mostLeftLevel(head.right, level) == height) {
+            return (1 << (height - level)) + bs(head.right, level + 1, height);
         } else {
-            return (1 << (height - level - 2)) + bs(head.left, level + 1, height);
+            return (1 << (height - level - 1)) + bs(head.left, level + 1, height);
         }
     }
 

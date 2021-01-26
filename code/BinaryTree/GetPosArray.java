@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /**
+ * @author Jevis Hoo
  * @Date 2020/12/21 13:04
- * @Created by Jevis_Hoo
  * @Description
  */
 public class GetPosArray {
@@ -13,8 +13,9 @@ public class GetPosArray {
         if (pre == null || in == null) {
             return null;
         }
+
         int len = pre.length;
-        HashMap<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>(len);
         for (int i = 0; i < len; i++) {
             map.put(in[i], i);
         }
@@ -24,16 +25,17 @@ public class GetPosArray {
         return pos;
     }
 
-    public static int setPos(int[] pre, int pre_s, int pre_e, int in_s, int in_e,
-                             int[] pos, int pos_index, HashMap<Integer, Integer> map) {
-        if (pre_s > pre_e)
-            return pos_index;
+    public static int setPos(int[] pre, int preS, int preE, int inS, int inE,
+                             int[] pos, int posIndex, HashMap<Integer, Integer> map) {
+        if (preS > preE) {
+            return posIndex;
+        }
 
-        pos[pos_index--] = pre[pre_s];
-        int i = map.get(pre[pre_s]);
+        pos[posIndex--] = pre[preS];
+        int i = map.get(pre[preS]);
 
-        pos_index = setPos(pre, pre_e - in_e + i + 1, pre_e, i + 1, in_e, pos, pos_index, map);
-        return setPos(pre, pre_s + 1, pre_s + i - in_s, in_s, i - 1, pos, pos_index, map);
+        posIndex = setPos(pre, preE - inE + i + 1, preE, i + 1, inE, pos, posIndex, map);
+        return setPos(pre, preS + 1, preS + i - inS, inS, i - 1, pos, posIndex, map);
     }
 
     public static void main(String[] args) {

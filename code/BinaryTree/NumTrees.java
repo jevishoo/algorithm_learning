@@ -36,8 +36,8 @@ public class NumTrees {
      * 进阶：N 的含义不变，假设可能的二叉树结构有 M 种，请返回 M 个二叉树的头节点，
      * 每一棵二叉树代表一种可能的结构。
      */
-    public static List<TreeNode> generateTrees(int N) {
-        return generate(1, N);
+    public static List<TreeNode> generateTrees(int n) {
+        return generate(1, n);
     }
 
     private static List<TreeNode> generate(int start, int end) {
