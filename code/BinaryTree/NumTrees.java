@@ -56,11 +56,21 @@ public class NumTrees {
                 for (TreeNode rNode : rNodeList) {
                     head.left = lNode;
                     head.right = rNode;
-                    res.add(head);
+                    res.add(cloneTree(head));
                 }
             }
         }
+        return res;
+    }
 
+    public static TreeNode cloneTree(TreeNode head) {
+        if (head == null) {
+            return null;
+        }
+
+        TreeNode res = new TreeNode(head.value);
+        res.left = cloneTree(head.left);
+        res.right = cloneTree(head.right);
         return res;
     }
 
