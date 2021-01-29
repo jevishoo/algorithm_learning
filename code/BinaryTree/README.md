@@ -41,6 +41,8 @@
 #### Question 95 Need Review
 👉👉  [`GetPosArray ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/GetPosArray.java)
 #### Question 96
-👉👉  [`NumTrees ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NumTrees.java)
+👉👉  [`NumTrees ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NumTrees.java)
 #### Question 97
-👉👉  [`NodesNum ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NodesNum.java)
+👉👉  [`NodesNum ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NodesNum.java)
+#### Question 98
+👉👉  [`IsSameTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/IsSameTree.java)

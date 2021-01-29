@@ -17,16 +17,17 @@ public class MaxDistance {
     }
 
     public static int getMaxDistance(TreeNode root) {
-        if (root == null)
+        if (root == null) {
             return 0;
+        }
 
         return process(root).maxDistance;
     }
 
     private static ReturnType process(TreeNode root) {
-        if (root == null)
+        if (root == null) {
             return new ReturnType(0, 0);
-
+        }
         ReturnType leftData = process(root.left);
         ReturnType rightData = process(root.right);
 

@@ -1,17 +1,18 @@
 package code.BinaryTree;
 
 /**
- * @Date 2020/9/18 21:00
- * @Created by Jevis_Hoo
- * @Description 二叉搜索树的检查
+ * @date 2020/9/18 21:00
+ * @author Jevis Hoo
+ * @description 二叉搜索树的检查
  * <p>
  * 检测树是否为二叉搜索树
  */
 
 public class BSTCheck {
     public static boolean isBST(TreeNode root, int min, int max) {
-        if (root == null) return true;
-
+        if (root == null) {
+            return true;
+        }
         return root.value > min
                 && root.value < max
                 && isBST(root.left, min, root.value)
@@ -22,14 +23,15 @@ public class BSTCheck {
     private static int help = Integer.MIN_VALUE;
 
     public static boolean isBSTByRecursion(TreeNode root) {
-        if (root == null) return true;
-
-        if (!isBSTByRecursion(root.left))
+        if (root == null) {
+            return true;
+        }
+        if (!isBSTByRecursion(root.left)) {
             return false;
-
-        if (root.value <= help)
+        }
+        if (root.value <= help) {
             return false;
-
+        }
         help = root.value;
 
         return isBSTByRecursion(root.right);
@@ -37,9 +39,9 @@ public class BSTCheck {
 
 
     private static boolean isBST(TreeNode head) {
-        if (head == null)
+        if (head == null) {
             return true;
-
+        }
         boolean res = true;
         int pre = Integer.MIN_VALUE;
         TreeNode cur = head;

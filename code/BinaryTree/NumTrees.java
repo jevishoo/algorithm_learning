@@ -44,6 +44,7 @@ public class NumTrees {
         List<TreeNode> res = new LinkedList<>();
         if (start > end) {
             res.add(null);
+            return res;
         }
 
         TreeNode head;
