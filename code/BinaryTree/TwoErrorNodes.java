@@ -5,9 +5,9 @@ import code.StackQueue.InorderTraversal;
 import java.util.Stack;
 
 /**
- * @Date 2020/11/22 13:45
- * @Created by Jevis_Hoo
- * @Description 调整搜索二叉树中两个错误的节点 在结构上完全交换两个节点的位置
+ * @author Jevis Hoo
+ * @date 2020/11/22 13:45
+ * @description 调整搜索二叉树中两个错误的节点 在结构上完全交换两个节点的位置
  */
 public class TwoErrorNodes {
     public static TreeNode[] getTwoErrNodes(TreeNode head) {
@@ -74,84 +74,136 @@ public class TwoErrorNodes {
         return parents;
     }
 
-    public static TreeNode exchangeTree(TreeNode root) {
-        TreeNode[] errors = getTwoErrNodes(root);
-        TreeNode[] parents = getTwoErrParents(root, errors[0], errors[1]);
+    public static TreeNode exchangeTree(TreeNode head) {
+        TreeNode[] errors = getTwoErrNodes(head);
+        TreeNode[] parents = getTwoErrParents(head, errors[0], errors[1]);
 
-        TreeNode lcTmp, rcTmp;
-        if (parents[0] == null) {
-            lcTmp = errors[1].left;
-            rcTmp = errors[1].right;
-            errors[1].left = errors[0].left;
-            errors[1].right = errors[0].right;
-            if (parents[1].left == errors[1]) {
-                parents[1].left = errors[0];
-            } else {
-                parents[1].right = errors[0];
+        TreeNode e1 = errors[0];
+        TreeNode e1P = parents[0];
+        TreeNode e1L = e1.left;
+        TreeNode e1R = e1.right;
+        TreeNode e2 = errors[1];
+        TreeNode e2P = parents[1];
+        TreeNode e2L = e2.left;
+        TreeNode e2R = e2.right;
+
+        if (e1 == head) {
+            if (e1 == e2P) { // 情况1
+                e1.left = e2L;
+                e1.right = e2R;
+                e2.right = e1;
+                e2.left = e1L;
+            } else if (e2P.left == e2) { // 情况2
+                e2P.left = e1;
+                e2.left = e1L;
+                e2.right = e1R;
+                e1.left = e2L;
+                e1.right = e2R;
+            } else { // 情况3
+                e2P.right = e1;
+                e2.left = e1L;
+                e2.right = e1R;
+                e1.left = e2L;
+                e1.right = e2R;
             }
-            errors[0].left = lcTmp;
-            errors[0].right = rcTmp;
-            return errors[1];
-        } else if (parents[1] == errors[0]) { //父子元素交换
-            lcTmp = errors[1].left;
-            rcTmp = errors[1].right;
-            if (parents[0].left == errors[0]) {
-                parents[0].left = errors[1];
-            } else {
-                parents[0].right = errors[1];
+            head = e2;
+        } else if (e2 == head) {
+            if (e2 == e1P) { // 情况4
+                e2.left = e1L;
+                e2.right = e1R;
+                e1.left = e2;
+                e1.right = e2R;
+            } else if (e1P.left == e1) { // 情况5
+                e1P.left = e2;
+                e1.left = e2L;
+                e1.right = e2R;
+                e2.left = e1L;
+                e2.right = e1R;
+            } else { // 情况6
+                e1P.right = e2;
+                e1.left = e2L;
+                e1.right = e2R;
+                e2.left = e1L;
+                e2.right = e1R;
             }
-
-            errors[1].left = errors[0].left;
-            errors[1].right = errors[0];
-
-            errors[0].left = lcTmp;
-            errors[0].right = rcTmp;
-        } else if (parents[0] == errors[1]) { //子父元素交换
-            lcTmp = errors[0].left;
-            rcTmp = errors[0].right;
-            if (parents[1].left == errors[1]) {
-                parents[1].left = errors[0];
-            } else {
-                parents[1].right = errors[0];
-            }
-
-            errors[0].left = errors[1];
-            errors[0].right = errors[1].right;
-
-            errors[1].left = lcTmp;
-            errors[1].right = rcTmp;
+            head = e1;
         } else {
-            if (parents[0].left == errors[0]) {
-                parents[0].left = errors[1];
+            if (e1 == e2P) {
+                if (e1P.left == e1) { // 情况7
+                    e1P.left = e2;
+                    e1.left = e2L;
+                    e1.right = e2R;
+                    e2.left = e1L;
+                    e2.right = e1;
+                } else { // 情况8
+                    e1P.right = e2;
+                    e1.left = e2L;
+                    e1.right = e2R;
+                    e2.left = e1L;
+                    e2.right = e1;
+                }
+            } else if (e2 == e1P) {
+                if (e2P.left == e2) { // 情况9
+                    e2P.left = e1;
+                    e2.left = e1L;
+                    e2.right = e1R;
+                    e1.left = e2;
+                    e1.right = e2R;
+                } else { // 情况10
+                    e2P.right = e1;
+                    e2.left = e1L;
+                    e2.right = e1R;
+                    e1.left = e2;
+                    e1.right = e2R;
+                }
             } else {
-                parents[0].right = errors[1];
+                if (e1P.left == e1) {
+                    if (e2P.left == e2) { // 情况11
+                        e1.left = e2L;
+                        e1.right = e2R;
+                        e2.left = e1L;
+                        e2.right = e1R;
+                        e1P.left = e2;
+                        e2P.left = e1;
+                    } else { // 情况12
+                        e1.left = e2L;
+                        e1.right = e2R;
+                        e2.left = e1L;
+                        e2.right = e1R;
+                        e1P.left = e2;
+                        e2P.right = e1;
+                    }
+                } else {
+                    if (e2P.left == e2) { // 情况13
+                        e1.left = e2L;
+                        e1.right = e2R;
+                        e2.left = e1L;
+                        e2.right = e1R;
+                        e1P.right = e2;
+                        e2P.left = e1;
+                    } else { // 情况14
+                        e1.left = e2L;
+                        e1.right = e2R;
+                        e2.left = e1L;
+                        e2.right = e1R;
+                        e1P.right = e2;
+                        e2P.right = e1;
+                    }
+                }
             }
-            if (parents[1].left == errors[1]) {
-                parents[1].left = errors[0];
-            } else {
-                parents[1].right = errors[0];
-            }
-
-            lcTmp = errors[1].left;
-            rcTmp = errors[1].right;
-            errors[1].left = errors[0].left;
-            errors[1].right = errors[0].right;
-            errors[0].left = lcTmp;
-            errors[0].right = rcTmp;
         }
-
-        return root;
+        return head;
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(4);
-        root.left = new TreeNode(5);
-        root.left.left = new TreeNode(1);
-        root.left.right = new TreeNode(3);
-
-        root.right = new TreeNode(6);
-        root.right.left = new TreeNode(2);
-        root.right.right = new TreeNode(7);
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(3);
+        root.left.right = new TreeNode(2);
+//        root.left.right = new TreeNode(3);
+//
+//        root.right = new TreeNode(6);
+//        root.right.left = new TreeNode(2);
+//        root.right.right = new TreeNode(7);
 
         System.out.println("Error");
         TreeNode[] errNodes = getTwoErrNodes(root);

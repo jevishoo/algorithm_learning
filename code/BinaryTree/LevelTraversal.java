@@ -3,9 +3,9 @@ package code.BinaryTree;
 import java.util.LinkedList;
 
 /**
- * @Date 2020/11/22 12:56
- * @Created by Jevis_Hoo
- * @Description 二叉树的按层打印与 ZigZag 打印
+ * @author Jevis Hoo
+ * @date 2020/11/22 12:56
+ * @description 二叉树的按层打印与 ZigZag 打印
  */
 public class LevelTraversal {
     public static void printByLevel(TreeNode root) {
@@ -17,8 +17,6 @@ public class LevelTraversal {
         System.out.print("Level " + level++ + ":");
         while (!list.isEmpty()) {
             cur = list.pollFirst();
-            System.out.print(cur.value + " ");
-
             if (cur.left != null) {
                 list.addLast(cur.left);
                 lastTmp = cur.left;
@@ -27,9 +25,13 @@ public class LevelTraversal {
                 list.addLast(cur.right);
                 lastTmp = cur.right;
             }
+
             if (cur == last && !list.isEmpty()) {
+                System.out.print(cur.value + " ");
                 System.out.print("\nLevel " + level++ + ":");
                 last = lastTmp;
+            } else {
+                System.out.print(cur.value + " ");
             }
         }
     }
