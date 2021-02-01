@@ -48,3 +48,5 @@
 👉👉  [`IsSameTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/IsSameTree.java)
 #### Question 99
 👉👉  [`IsSymmetric ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/IsSymmetric.java)
+#### Question 100
+👉👉  [`RebuildTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/RebuildTree.java)
