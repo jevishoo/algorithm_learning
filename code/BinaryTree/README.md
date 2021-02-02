@@ -50,3 +50,7 @@
 👉👉  [`IsSymmetric ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/IsSymmetric.java)
 #### Question 100
 👉👉  [`RebuildTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/RebuildTree.java)
+#### Question 100-101
+👉👉  [`MinDepth ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MinDepth.java)
+
+👉👉  [`PathSum ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/PathSum.java)

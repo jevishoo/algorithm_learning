@@ -1,9 +1,9 @@
 package code.BinaryTree;
 
 /**
- * @Date 2020/11/27 14:37
- * @Created by Jevis_Hoo
- * @Description
+ * @author Jevis Hoo
+ * @date 2020/11/27 14:37
+ * @description
  */
 public class IsBalanceTree {
     public static class ReturnType {
@@ -17,16 +17,16 @@ public class IsBalanceTree {
     }
 
     public static boolean isBalanceTree(TreeNode root) {
-        if (root == null)
+        if (root == null) {
             return true;
-
+        }
         return process(root).isBalanced;
     }
 
     private static ReturnType process(TreeNode root) {
-        if (root == null)
+        if (root == null) {
             return new ReturnType(true, 0);
-
+        }
         ReturnType left = process(root.left);
         ReturnType right = process(root.right);
 
