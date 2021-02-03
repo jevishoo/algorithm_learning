@@ -53,4 +53,8 @@
 #### Question 100-101
 👉👉  [`MinDepth ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MinDepth.java)
 
-👉👉  [`PathSum ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/PathSum.java)
+👉👉  [`PathSum Ⅰ ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/PathSum.java)
+#### Question 101
+👉👉  [`PathSum Ⅱ ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/PathSum.java)
+
+👉👉  [`FlattenTreeToList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/FlattenTreeToList.java)
