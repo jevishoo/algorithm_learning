@@ -58,3 +58,7 @@
 👉👉  [`PathSum Ⅱ ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/PathSum.java)
 
 👉👉  [`FlattenTreeToList ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/FlattenTreeToList.java)
+#### Question 102-103
+👉👉  [`NextRightPointer Ⅰ ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NextRightPointer.java)
+
+👉👉  [`NextRightPointer Ⅱ ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NextRightPointer.java)
