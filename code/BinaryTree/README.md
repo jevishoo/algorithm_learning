@@ -62,3 +62,7 @@
 👉👉  [`NextRightPointer Ⅰ ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NextRightPointer.java)
 
 👉👉  [`NextRightPointer Ⅱ ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/NextRightPointer.java)
+#### Question 104-105
+👉👉  [`SumNumbers ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/SumNumbers.java)
+
+👉👉  [`MaxPathSum ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MaxPathSum.java)
