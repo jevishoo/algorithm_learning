@@ -68,3 +68,7 @@
 👉👉  [`MaxPathSum ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/MaxPathSum.java)
 #### Question 106
 👉👉  [`RightSideView ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/RightSideView.java)
+#### Question 107-108
+👉👉  [`InvertTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/InvertTree.java)
+
+👉👉  [`KthSmallest ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/KthSmallest.java)
