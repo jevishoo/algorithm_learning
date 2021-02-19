@@ -72,3 +72,5 @@
 👉👉  [`InvertTree ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/InvertTree.java)
 
 👉👉  [`KthSmallest ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/KthSmallest.java)
+#### Question 109
+👉👉  [`BinaryTreePaths ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/BinaryTreePaths.java)
