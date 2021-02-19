@@ -5,14 +5,15 @@ import code.StackQueue.PreorderTraversal;
 import java.util.LinkedList;
 
 /**
+ * @author Jevis Hoo
  * @Date 2020/11/12 11:13
- * @Created by Jevis_Hoo
  * @Description 通过层遍历实现序列化和反序列化
  */
 public class SerialByLevel {
     public static String serialByLevel(TreeNode head) {
-        if (head == null)
+        if (head == null) {
             return "#,";
+        }
 
         StringBuilder res = new StringBuilder(head.value + ",");
         LinkedList<TreeNode> list = new LinkedList<>();
@@ -48,9 +49,9 @@ public class SerialByLevel {
         TreeNode node;
         while (!list.isEmpty()) {
             node = list.pollFirst();
-            node.left = nodes[index].equals("#") ? null : new TreeNode(Integer.parseInt(nodes[index]));
+            node.left = "#".equals(nodes[index]) ? null : new TreeNode(Integer.parseInt(nodes[index]));
             index++;
-            node.right = nodes[index].equals("#") ? null : new TreeNode(Integer.parseInt(nodes[index]));
+            node.right = "#".equals(nodes[index]) ? null : new TreeNode(Integer.parseInt(nodes[index]));
             index++;
             if (node.left != null) {
                 list.add(node.left);
@@ -60,6 +61,28 @@ public class SerialByLevel {
             }
         }
         return head;
+    }
+
+    public static String serialize(TreeNode root) {
+        if (root == null) {
+            return "";
+        }
+
+        StringBuilder res = new StringBuilder();
+        LinkedList<TreeNode> list = new LinkedList<>();
+        list.addLast(root);
+        while (!list.isEmpty()) {
+            TreeNode node = list.pollFirst();
+            if (node == null) {
+                res.append("null,");
+            } else {
+                res.append(node.value).append(",");
+                list.addLast(node.left);
+                list.addLast(node.right);
+            }
+        }
+
+        return res.toString();
     }
 
 
@@ -77,6 +100,7 @@ public class SerialByLevel {
         String res = serialByLevel(root);
         res = res.substring(0, res.length() - 1);
         System.out.println(res);// 1,2,3,4,#,5,6,#,#,7,#,#,8,#,#,#,#,
+        System.out.println(serialize(root));
 
         TreeNode node = reconByLevelString(res);
         PreorderTraversal.preOrderRecur(node);
