@@ -5,4 +5,4 @@
 
 👉👉  [`RobotWalk ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/RecursionDP/RobotWalk.java)
 #### Question 106 Need Review!!!
-👉👉  [`MinCoins ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/RecursionDP/MinCoins.java)
+👉👉  [`ChangeCoins ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/RecursionDP/ChangeCoins.java)
