@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Stack;
 
 /**
+ * @author Jevis Hoo
  * @Date 2020/9/10 13:40
- * @Created by Jevis_Hoo
  * @Description Valid Parentheses
  * <p>
  * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
@@ -29,10 +29,14 @@ public class ValidParentheses {
         Stack<Character> stack = new Stack<>();
 
         for (int i = 0; i < s.length(); i++) {
-            if (this.mappings.containsKey(s.charAt(i))) {//新加入元素为 右括号
-                if (stack.isEmpty()) return false;
-                else {
-                    if (!stack.pop().equals(this.mappings.get(s.charAt((i))))) return false;
+            //新加入元素为 右括号
+            if (this.mappings.containsKey(s.charAt(i))) {
+                if (stack.isEmpty()) {
+                    return false;
+                } else {
+                    if (!stack.pop().equals(this.mappings.get(s.charAt((i))))) {
+                        return false;
+                    }
                 }
             } else {
                 stack.push(s.charAt(i));
