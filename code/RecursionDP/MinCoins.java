@@ -116,12 +116,12 @@ public class MinCoins {
                 }
             }
         }
-        return dp[aim] > aim ? -1 : dp[aim];
+        return dp[aim];
     }
 
     public static void main(String[] args) {
         int[] arr = new int[]{5, 2, 3};
-        int aim = 20;
+        int aim = 1;
 
         System.out.println(getMinCoins(arr, aim, 0));
         System.out.println(getMinCoins(arr, aim, 1));
