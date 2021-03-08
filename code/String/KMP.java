@@ -1,14 +1,15 @@
 package code.String;
 
 /**
+ * @author Jevis Hoo
  * @Date 2020/11/24 10:34
- * @Created by Jevis_Hoo
  * @Description KMP algorithm
  */
 public class KMP {
     public static int getIndexOf(String s, String t) {
-        if (s == null || t == null || t.length() < 1 || s.length() < t.length())
+        if (s == null || t == null || t.length() < 1 || s.length() < t.length()) {
             return -1;
+        }
 
         char[] ss = s.toCharArray();
         char[] ts = t.toCharArray();
@@ -16,8 +17,8 @@ public class KMP {
         int i = 0;
         int j = 0;
         int[] next = getNext(ts);
-        System.out.println(s);
-        System.out.println(t);
+//        System.out.println(s);
+//        System.out.println(t);
         while (i < ss.length && j < ts.length) {
             if (ss[i] == ts[j]) {
                 i++;

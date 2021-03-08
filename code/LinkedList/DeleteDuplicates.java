@@ -1,8 +1,8 @@
 package code.LinkedList;
 
 /**
+ * @author Jevis Hoo
  * @Date 2020/10/27 8:28
- * @Created by Jevis_Hoo
  * @Description Delete Duplicates from Sorted List II
  * <p>
  * Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
@@ -10,8 +10,8 @@ package code.LinkedList;
  * Return the linked list sorted as well.
  */
 public class DeleteDuplicates {
-    /*
-    List Solution Easily understand
+    /**
+     * List Solution Easily understand
      */
     public static Node deleteDuplicates(Node head) {
         Node cur = head;
@@ -53,20 +53,22 @@ public class DeleteDuplicates {
     Recursion Solution Need Review
      */
     public static Node deleteDuplicatesRecursion(Node head) {
-        if (head == null || head.next == null)
+        if (head == null || head.next == null) {
             return head;
+        }
 
-        if (head.value == head.next.value)
+        if (head.value == head.next.value) {
             return deleteDuplicatesRecursion(getNextNotEqualsToMe(head).next);
-
+        }
         head.next = deleteDuplicatesRecursion(head.next);
 
         return head;
     }
 
     public static Node getNextNotEqualsToMe(Node node) {
-        while (node.next != null && node.value == node.next.value)
+        while (node.next != null && node.value == node.next.value) {
             node = node.next;
+        }
         return node;
     }
 
