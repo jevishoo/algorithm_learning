@@ -1,11 +1,12 @@
 package code.BinaryTree;
 
 import code.StackQueue.InorderTraversal;
+import code.StackQueue.PostorderTraversal;
 import code.StackQueue.PreorderTraversal;
 
 /**
+ * @author Jevis Hoo
  * @Date 2020/12/8 7:59
- * @Created by Jevis_Hoo
  * @Description 根据后序数组重建搜索二叉树
  */
 public class RebuildBSTByPos {
@@ -43,25 +44,28 @@ public class RebuildBSTByPos {
     }
 
     public static TreeNode posToBST(int[] arr) {
-        if (!isPosArray(arr))
+        if (!isPosArray(arr)) {
             return null;
+        }
 
         return rebuiltBST(arr, 0, arr.length - 1);
     }
 
     public static TreeNode rebuiltBST(int[] arr, int start, int end) {
-        if (start > end)
+        if (start > end) {
             return null;
-
+        }
         TreeNode head = new TreeNode(arr[end]);
 
         int less = -1;
         int more = end;
 
         for (int i = start; i < end; i++) {
-            if (arr[i] < arr[end]) {
+            if (arr[end] > arr[i]) {
+                // 比头小的数的最后一个
                 less = i;
             } else {
+                // 比头大的数的第一个
                 more = more == end ? i : more;
             }
         }
@@ -80,7 +84,8 @@ public class RebuildBSTByPos {
         System.out.println(isPosArray(array));
 
         TreeNode root = posToBST(array);
-        System.out.println(InorderTraversal.inorderTraversal(root));
         System.out.println(PreorderTraversal.preorderTraversal(root));
+        System.out.println(InorderTraversal.inorderTraversal(root));
+        System.out.println(PostorderTraversal.postorderTraversal(root));
     }
 }
