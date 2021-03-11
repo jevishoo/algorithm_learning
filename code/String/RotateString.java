@@ -45,49 +45,37 @@ public class RotateString {
         }
     }
 
+
+    public static void rotateString2(char[] chars, int size) {
+        int lPart = size;
+        int rPart = chars.length - size;
+
+        int start = 0;
+        int end = chars.length - 1;
+        int min = Math.min(lPart, rPart);
+        while (true) {
+            for (int i = 0; i < min; i++) {
+                swap(chars, start + i, end - min + i + 1);
+            }
+            if (lPart == rPart) {
+                break;
+            } else if (lPart < rPart) {
+                end = rPart - 1;
+                min = Math.min(lPart, rPart - lPart);
+                rPart = rPart - lPart;
+            } else {
+                start = rPart;
+                min = Math.min(rPart, lPart - rPart);
+                lPart = lPart - rPart;
+            }
+        }
+
+    }
+
     public static void swap(char[] chars, int i, int j) {
         char tmp = chars[i];
         chars[i] = chars[j];
         chars[j] = tmp;
-    }
-
-
-    public void rotateString2(char[] chas, int size) {
-        if (chas == null || size <= 0 || size >= chas.length) {
-            return;
-        }
-        int start = 0;
-        int end = chas.length - 1;
-        int lpart = size;
-        int rpart = chas.length - size;
-        int s = Math.min(lpart, rpart);
-        int d = lpart - rpart;
-        while (true) {
-            exchange(chas, start, end, s);
-            if (d == 0) {
-                break;
-            } else if (d > 0) {
-                start += s;
-                lpart = d;
-            } else {
-                end -= s;
-                rpart = -d;
-            }
-            s = Math.min(lpart, rpart);
-            d = lpart - rpart;
-        }
-    }
-
-    public void exchange(char[] chars, int start, int end, int size) {
-        int i = end - size + 1;
-        char tmp;
-        while (size-- != 0) {
-            tmp = chars[start];
-            chars[start] = chars[i];
-            chars[i] = tmp;
-            start++;
-            i++;
-        }
     }
 
     public static void main(String[] args) {
@@ -98,7 +86,16 @@ public class RotateString {
 
         chars = "E.STAR".toCharArray();
         System.out.println(chars);
-        rotateString(chars, 2);
+        rotateString2(chars, 2);
+        System.out.println(chars);
+        rotateString(chars, 4);
+        System.out.println(chars);
+
+        chars = "12345ABCDEFGF".toCharArray();
+        System.out.println(chars);
+        rotateString2(chars, 5);
+        System.out.println(chars);
+        rotateString(chars, 8);
         System.out.println(chars);
     }
 }

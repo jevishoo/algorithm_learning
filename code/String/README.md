@@ -20,4 +20,11 @@
 
 👉👉  [`ReplaceAndModify ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/ReplaceAndModify.java)
 
-👉👉  [`RotateString ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/RotateString.java)
+👉👉  [`RotateString Ⅰ ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/RotateString.java)
+
+#### Question 115-116
+👉👉  [`RotateString Ⅱ ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/RotateString.java)
+
+👉👉  [`ShuffleCards ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/ShuffleCards.java)
+
+👉👉  [`DeleteRedundantChar ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/DeleteRedundantChar.java)
