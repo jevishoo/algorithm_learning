@@ -22,9 +22,16 @@
 
 👉👉  [`RotateString Ⅰ ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/RotateString.java)
 
-#### Question 115-116
+#### Question 115-117
+
 👉👉  [`RotateString Ⅱ ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/RotateString.java)
 
 👉👉  [`ShuffleCards ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/ShuffleCards.java)
 
 👉👉  [`DeleteRedundantChar ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/DeleteRedundantChar.java)
+
+#### Question 118-119
+
+👉👉  [`MinDistance ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinDistance.java)
+
+👉👉  [`FindMinPaths ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/FindMinPaths.java)
