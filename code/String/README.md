@@ -35,3 +35,10 @@
 👉👉  [`MinDistance ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinDistance.java)
 
 👉👉  [`FindMinPaths ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/FindMinPaths.java)
+#### Question 120-122
+
+👉👉  [`LargestCommonSubstring ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/LargestCommonSubstring.java)
+
+👉👉  [`ExpressionCompute ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/ExpressionCompute.java)
+
+👉👉  [`ValidParentheses ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/ValidParentheses.java)
