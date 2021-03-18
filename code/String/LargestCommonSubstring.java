@@ -6,13 +6,13 @@ package code.String;
  * @description 最长公共子串
  */
 public class LargestCommonSubstring {
-    public static String getLcSubstringByDP(String str1, String str2) {
+    public static String getLcSubstringByDp(String str1, String str2) {
         if (str1 == null || str2 == null || "".equals(str1) || "".equals(str2)) {
             return "";
         }
         char[] chs1 = str1.toCharArray();
         char[] chs2 = str2.toCharArray();
-        int[][] dp = getDP(chs1, chs2);
+        int[][] dp = process(chs1, chs2);
         int end = 0;
         int max = 0;
         for (int i = 0; i < chs1.length; i++) {
@@ -26,7 +26,7 @@ public class LargestCommonSubstring {
         return str1.substring(end - max + 1, end + 1);
     }
 
-    public static int[][] getDP(char[] str1, char[] str2) {
+    public static int[][] process(char[] str1, char[] str2) {
         int[][] dp = new int[str1.length][str2.length];
         for (int i = 0; i < str1.length; i++) {
             if (str1[i] == str2[0]) {
@@ -101,6 +101,6 @@ public class LargestCommonSubstring {
         String s2 = "tad12ada1234obj";
 
         System.out.println(getLcSubstring(s1, s2));
-        System.out.println(getLcSubstringByDP(s1, s2));
+        System.out.println(getLcSubstringByDp(s1, s2));
     }
 }
