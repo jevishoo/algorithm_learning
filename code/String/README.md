@@ -35,6 +35,7 @@
 👉👉  [`MinDistance ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinDistance.java)
 
 👉👉  [`FindMinPaths ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/FindMinPaths.java)
+
 #### Question 120-122
 
 👉👉  [`LargestCommonSubstring ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/LargestCommonSubstring.java)
@@ -42,6 +43,7 @@
 👉👉  [`ExpressionCompute ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/ExpressionCompute.java)
 
 👉👉  [`ValidParentheses ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/ValidParentheses.java)
+
 #### Question 123-125
 
 👉👉  [`MinBoat ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinBoat.java)
@@ -49,3 +51,7 @@
 👉👉  [`LargestCommonSubsequence ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/LargestCommonSubsequence.java)
 
 👉👉  [`LargestPalindromeSubsequence ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/LargestPalindromeSubsequence.java)
+
+#### Question 126
+
+👉👉  [`AddStringToPalindrome ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/AddStringToPalindrome.java)

@@ -7,9 +7,9 @@ package code.String;
  */
 public class LargestPalindromeSubsequence {
 
-    public static int getLargestPalindromeSubsequence(String str) {
+    public static String getLargestPalindromeSubsequence(String str) {
         if (str == null || str.length() == 0) {
-            return 0;
+            return str;
         }
 
         char[] chars = str.toCharArray();
@@ -29,7 +29,25 @@ public class LargestPalindromeSubsequence {
             }
         }
 
-        return dp[0][chars.length - 1];
+        int m = 0;
+        int n = chars.length - 1;
+        char[] res = new char[dp[0][n]];
+        int lIndex = 0;
+        int rIndex = res.length - 1;
+
+        while (rIndex > lIndex) {
+            if (n > 0 && dp[m][n] == dp[m][n - 1]) {
+                n--;
+            } else if (m < chars.length && dp[m][n] == dp[m + 1][n]) {
+                m++;
+            } else {
+                res[rIndex--] = chars[n];
+                res[lIndex++] = chars[n];
+                m++;
+                n--;
+            }
+        }
+        return String.valueOf(res);
     }
 
     public static void main(String[] args) {
@@ -37,6 +55,7 @@ public class LargestPalindromeSubsequence {
 
         // 方法一
         System.out.println(getLargestPalindromeSubsequence(str1));
+        System.out.println(getLargestPalindromeSubsequence(str1).length());
 
         // 方法二
         StringBuilder stringBuilder = new StringBuilder();
