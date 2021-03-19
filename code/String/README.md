@@ -55,3 +55,5 @@
 #### Question 126
 
 👉👉  [`AddStringToPalindrome ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/AddStringToPalindrome.java)
+
+👉👉  [`MinCut ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinCut.java)
