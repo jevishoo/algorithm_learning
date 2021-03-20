@@ -52,8 +52,14 @@
 
 👉👉  [`LargestPalindromeSubsequence ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/LargestPalindromeSubsequence.java)
 
-#### Question 126
+#### Question 126-127
 
 👉👉  [`AddStringToPalindrome ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/AddStringToPalindrome.java)
 
 👉👉  [`MinCut ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinCut.java)
+
+#### Question 128-129
+
+👉👉  [`LowestString ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/LowestString.java)
+
+👉👉  [`MaxUnique ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MaxUnique.java)
