@@ -64,8 +64,6 @@
 
 👉👉  [`MaxUnique ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MaxUnique.java)
 
-#### Question 130-131
+#### Question 130
 
 👉👉  [`DeleteStringToPalindrome ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/DeleteStringToPalindrome.java)
-
-👉👉  [`KthMinNums ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/KthMinNums.java) ❗❗❗
