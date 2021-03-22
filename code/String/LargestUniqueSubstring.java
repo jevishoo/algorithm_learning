@@ -8,7 +8,7 @@ import java.util.HashMap;
  * @description 找到字符串的最长无重复字符子串
  * 如果 str的长度为 N，请实现时间复杂度为 O(N)的方法。
  */
-public class MaxUnique {
+public class LargestUniqueSubstring {
     public static int getMaxUnique(String str) {
         if (str == null || str.length() < 1) {
             return 0;
