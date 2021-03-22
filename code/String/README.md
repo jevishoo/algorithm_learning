@@ -67,3 +67,9 @@
 #### Question 130
 
 👉👉  [`DeleteStringToPalindrome ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/DeleteStringToPalindrome.java)
+
+#### Question 131-132
+
+👉👉  [`PointNewChar ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/PointNewChar.java)
+
+👉👉  [`MinContainSubstring ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinContainSubstring.java)
