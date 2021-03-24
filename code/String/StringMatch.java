@@ -66,7 +66,7 @@ public class StringMatch {
         return process(strings, exps, si, ei + 2);
     }
 
-    public static boolean isMatchByDp(String str, String exp) {
+    public static boolean isMatchByDp1(String str, String exp) {
         if (str == null || exp == null) {
             return false;
         }
@@ -97,10 +97,6 @@ public class StringMatch {
                 }
             }
         }
-
-        for (boolean[] row : dp) {
-            System.out.println(Arrays.toString(row));
-        }
         return dp[0][0];
     }
 
@@ -126,33 +122,104 @@ public class StringMatch {
         return dp;
     }
 
+
+    public static boolean isMatchByDp2(String str, String exp) {
+        if (str == null || exp == null) {
+            return false;
+        }
+        if (!isValid(str.toCharArray(), exp.toCharArray())) {
+            return false;
+        }
+
+        boolean[][] dp = new boolean[str.length() + 1][exp.length() + 1];
+        dp[0][0] = true;
+
+        // 初始化第一行
+        for (int i = 0; i < exp.length(); i++) {
+            // 如果此位置为 '*'，i为exp的索引。
+            if (exp.charAt(i) == '*' && dp[0][i - 1]) {
+                dp[0][i + 1] = true;
+            }
+        }
+
+        for (int i = 1; i <= str.length(); i++) {
+            for (int j = 1; j <= exp.length(); j++) {
+                if (exp.charAt(j - 1) == '.' || exp.charAt(j - 1) == str.charAt(i - 1)) {
+                    // 如果是任意元素或者是对于元素匹配，与左上角相同
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else if (exp.charAt(j - 1) == '*') {
+                    //第j个元素为 '*'
+
+                    // 如果第j-1个元素不为'.'，且和str的第i个元素不匹配
+                    // 等同于看exp的前j-2是否能与str前i个匹配
+                    if (exp.charAt(j - 2) != str.charAt(i - 1) && exp.charAt(j - 2) != '.') {
+                        dp[i][j] = dp[i][j - 2];
+                    } else {
+                        // 否则表示第j-1个元素与第i个元素匹配即'.'或相等
+                        // 分情况：
+                        // >>> 要exp前一个元素
+                        // 1) 与str的前i个元素比较
+                        // dp[i][j - 1]
+                        // 2) 与str的前i-1个元素比较
+                        // dp[i - 1][j]
+                        // >>> 不要exp前一个元素
+                        // dp[i][j - 2]
+                        dp[i][j] = dp[i][j - 1] || dp[i - 1][j] || dp[i][j - 2];
+                    }
+                }
+            }
+        }
+
+        for (boolean[] row : dp) {
+            System.out.println(Arrays.toString(row));
+        }
+        return dp[str.length()][exp.length()];
+    }
+
+
     public static void main(String[] args) {
         String str = "abc";
         String exp = "abc";
 
         System.out.println(isMatch(str, exp));
+        System.out.println(isMatchByDp2(str, exp));
+
         System.out.println("=======");
 
 
         str = "abc";
         exp = "a.c";
         System.out.println(isMatch(str, exp));
+        System.out.println(isMatchByDp2(str, exp));
+
         System.out.println("=======");
 
         str = "abcd";
         exp = ".";
         System.out.println(isMatch(str, exp));
+        System.out.println(isMatchByDp2(str, exp));
+
         System.out.println("=======");
 
         str = "";
         exp = "..*";
         System.out.println(isMatch(str, exp));
+        System.out.println(isMatchByDp2(str, exp));
+
+
         System.out.println("=======");
 
         str = "abbcd";
         exp = ".b*bbcd";
         System.out.println(isMatch(str, exp));
+        System.out.println(isMatchByDp1(str, exp));
+        System.out.println(isMatchByDp2(str, exp));
 
-        System.out.println(isMatchByDp(str, exp));
+        System.out.println("=======");
+
+        str = "abshvvabzsd";
+        exp = ".*";
+        System.out.println(isMatch(str, exp));
+        System.out.println(isMatchByDp2(str, exp));
     }
 }

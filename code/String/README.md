@@ -68,12 +68,18 @@
 
 👉👉  [`DeleteStringToPalindrome ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/DeleteStringToPalindrome.java)
 
-#### Question 131-132
+#### Question 132-133
 
 👉👉  [`PointNewChar ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/PointNewChar.java)
 
 👉👉  [`MinContainSubstring ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/MinContainSubstring.java)
 
-#### Question 133 Need Review !!!
+#### Question 134 Need Review !!!
 
-👉👉  [`StringMatch ★★★★★`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/StringMatch.java)
+👉👉  [`StringMatch Ⅰ ★★★★★`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/StringMatch.java)
+
+#### Question 135-136
+
+👉👉  [`StringMatch Ⅱ ★★★★★`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/StringMatch.java)
+
+👉👉  [`Trie ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/Trie.java)
