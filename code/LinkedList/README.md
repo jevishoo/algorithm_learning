@@ -68,3 +68,5 @@
 👉👉  [**leetcode 1171** `RemoveZeroSumSublists ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/RemoveZeroSumSublists.java)
 #### Question 72
 👉👉  [**leetcode 1367** `SubPath ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/SubPath.java)
+#### Question 139
+👉👉  [**JZ 6** `ReversePrint ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/LinkedList/ReversePrint.java)

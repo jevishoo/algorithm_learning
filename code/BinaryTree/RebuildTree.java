@@ -12,6 +12,9 @@ import java.util.HashMap;
  * @description Construct Binary Tree from Preorder and Inorder Traversal
  */
 public class RebuildTree {
+    private static int position;
+    private static HashMap<Integer, Integer> map;
+
     /**
      * ByPreInorder
      *
@@ -20,24 +23,25 @@ public class RebuildTree {
      * @return tree
      */
     public static TreeNode rebuildTreeByPreIn(int[] preorder, int[] inorder) {
-        HashMap<Integer, Integer> map = new HashMap<>(preorder.length);
+        map = new HashMap<>(preorder.length);
+        position = 0;
         for (int i = 0; i < inorder.length; i++) {
             map.put(inorder[i], i);
         }
 
-        return rebuildTreeByPreIn(preorder, new int[]{0}, 0, preorder.length - 1, map);
+        return rebuildTreeByPreIn(preorder, 0, preorder.length - 1);
     }
 
-    public static TreeNode rebuildTreeByPreIn(int[] pre, int[] position, int bInd, int eInd, HashMap<Integer, Integer> map) {
+    public static TreeNode rebuildTreeByPreIn(int[] pre, int bInd, int eInd) {
         if (bInd > eInd) {
             return null;
         }
 
-        TreeNode head = new TreeNode(pre[position[0]++]);
+        TreeNode head = new TreeNode(pre[position++]);
         int index = map.get(head.value);
 
-        head.left = rebuildTreeByPreIn(pre, position, bInd, index - 1, map);
-        head.right = rebuildTreeByPreIn(pre, position, index + 1, eInd, map);
+        head.left = rebuildTreeByPreIn(pre, bInd, index - 1);
+        head.right = rebuildTreeByPreIn(pre, index + 1, eInd);
 
         return head;
     }
