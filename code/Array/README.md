@@ -15,3 +15,6 @@
 👉👉  [**JZ 1** `FindRepeatNumber ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/FindRepeatNumber.java)
 
 👉👉  [**JZ 2** `FindNumberIn2DArray ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/FindNumberIn2DArray.java)
+#### Question 140
+
+👉👉  [**JZ 12** `MatrixPath ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/MatrixPath.java)
