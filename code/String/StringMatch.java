@@ -135,10 +135,12 @@ public class StringMatch {
         dp[0][0] = true;
 
         // 初始化第一行
-        for (int i = 0; i < exp.length(); i++) {
+        for (int i = 2; i <= exp.length(); i += 2) {
             // 如果此位置为 '*'，i为exp的索引。
-            if (exp.charAt(i) == '*' && dp[0][i - 1]) {
-                dp[0][i + 1] = true;
+            if (exp.charAt(i - 1) == '*') {
+                dp[0][i] = true;
+            } else {
+                break;
             }
         }
 
@@ -218,6 +220,12 @@ public class StringMatch {
         System.out.println("=======");
 
         str = "abshvvabzsd";
+        exp = ".*";
+        System.out.println(isMatch(str, exp));
+        System.out.println(isMatchByDp2(str, exp));
+
+        System.out.println("=======");
+        str = "";
         exp = ".*";
         System.out.println(isMatch(str, exp));
         System.out.println(isMatchByDp2(str, exp));
