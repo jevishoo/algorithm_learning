@@ -7,3 +7,5 @@
 👉👉  [`GetMax ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/GetMax.java)
 
 👉👉  [`Arithmetic ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/Arithmetic.java)
+
+👉👉  [`Pow ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/Pow.java)
