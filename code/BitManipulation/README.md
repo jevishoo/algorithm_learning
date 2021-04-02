@@ -1,4 +1,4 @@
-#### Question 143
+#### Question 143-147
 
 👉👉  [**JZ 15** `HammingWeight ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/HammingWeight.java)
 
