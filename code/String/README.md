@@ -87,3 +87,7 @@
 #### Question 148
 
 👉👉  [`LargestPalindromeSubstring Ⅱ ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/LargestPalindromeSubstring.java)
+
+#### Question 151
+
+👉👉  [`BeautifulSubsequence ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/BeautifulSubsequence.java)
