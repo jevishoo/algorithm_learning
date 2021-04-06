@@ -90,4 +90,8 @@
 
 #### Question 151
 
-👉👉  [`BeautifulSubsequence ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/BeautifulSubsequence.java)
+👉👉  [`BeautifulSubsequence ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/BeautifulSubsequence.java)
+
+#### Question 152
+
+👉👉  [`NumberCheck ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/NumberCheck.java)

@@ -23,3 +23,11 @@
 #### Question 141
 
 👉👉  [**JZ 13** `RobotMovingCount ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/RobotMovingCount.java)
+
+#### Question 153-155
+
+👉👉  [`SearchRotateArray ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/SearchRotateArray.java)
+
+👉👉  [**JZ 21** `ExchangeArray ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ExchangeArray.java)
+
+👉👉  [**JZ 42** `ExchangeArray ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ExchangeArray.java)

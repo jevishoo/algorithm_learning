@@ -1,6 +1,7 @@
 package code.Array;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 /**
  * @author Jevis Hoo
@@ -14,12 +15,42 @@ public class KthMinNums {
      * @param array int[]
      * @param k     min num
      * @return int[k]
+     * @description O(NlogK) 大根堆
+     */
+    public int[] getLeastNumbers(int[] array, int k) {
+        if (k == 0 || array.length == 0) {
+            return new int[0];
+        }
+        // 默认是小根堆，实现大根堆需要重写一下比较器。
+        PriorityQueue<Integer> pq = new PriorityQueue<>((v1, v2) -> v2 - v1);
+        for (int num : array) {
+            if (pq.size() < k) {
+                pq.offer(num);
+            } else if (num < pq.peek()) {
+                pq.poll();
+                pq.offer(num);
+            }
+        }
+
+        // 返回堆中的元素
+        int[] res = new int[pq.size()];
+        int idx = 0;
+        for (int num : pq) {
+            res[idx++] = num;
+        }
+        return res;
+    }
+
+    /**
+     * @param array int[]
+     * @param k     min num
+     * @return int[k]
      * @description partition 小于 等于 大于
      * 利用 partition思路，利用随机概率选择 "standard"，使时间复杂度可收敛到 O(N)
      */
     public static int[] getKthMinNumsByPartition(int[] array, int k) {
         if (k < 1) {
-            return null;
+            return new int[0];
         }
         if (k == array.length) {
             return array;
