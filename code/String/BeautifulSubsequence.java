@@ -1,6 +1,6 @@
 package code.String;
 
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * @author Jevis Hoo
@@ -14,27 +14,22 @@ public class BeautifulSubsequence {
         }
 
         char[] chars = str.toCharArray();
-        int[][] dp = new int[chars.length][chars.length];
-        for (int i = 0; i < chars.length; i++) {
-            dp[i][i] = 1;
-        }
-
-        for (int j = 1; j < chars.length; j++) {
-            for (int i = j - 1; i >= 0; i--) {
-                if (chars[i] == chars[j]) {
-                    dp[i][j] = dp[i + 1][j] * 2 + dp[i][j - 1];
-                } else {
-                    dp[i][j] = dp[i][j - 1] * 2;
-                }
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (char ch : chars) {
+            if (map.containsKey(ch)) {
+                map.put(ch, map.get(ch) + 1);
+            } else {
+                map.put(ch, 1);
             }
         }
-
-
-        for (int[] arr : dp) {
-            System.out.println(Arrays.toString(arr));
-
+        int res = 1;
+        Set<Character> keySet = map.keySet();
+        for (char key : keySet) {
+            res *= map.get(key) + 1;
+            res %= 20210101;
         }
-        return dp[0][chars.length - 1];
+
+        return res;
     }
 
     public static void main(String[] args) {
