@@ -67,3 +67,5 @@
 👉👉  [**leetcode 856** `ParenthesesScore ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ParenthesesScore.java)
 #### Question 36 Need Review
 👉👉  [**leetcode 895** `FreqStack ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/FreqStack.java)
+#### Question 160
+👉👉  [**JZ 31** `ValidateStackSequences ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/StackQueue/ValidateStackSequences.java)
