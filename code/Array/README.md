@@ -36,4 +36,8 @@
 
 👉👉  [**JZ 29** `SpiralOrder ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/SpiralOrder.java)
 
+#### Question 162
+
+👉👉  [**leetcode 46/47** `PermuteAllNumber ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/PermuteAllNumber.java)
+
 
