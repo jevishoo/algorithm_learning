@@ -13,3 +13,7 @@
 #### Question 156
 
 👉👉  [**JZ 43** `CountDigitOne ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/CountDigitOne.java)
+
+#### Question 161
+
+👉👉  [**leetcode 202** `HappyNumber ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/HappyNumber.java)
