@@ -19,3 +19,7 @@
 #### Question 150
 
 👉👉  [`SplitNum ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/RecursionDP/SplitNum.java)
+
+#### Question 164
+
+👉👉  [`StealMaxValue ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/RecursionDP/StealMaxValue.java)

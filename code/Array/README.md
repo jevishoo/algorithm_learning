@@ -40,4 +40,8 @@
 
 👉👉  [**leetcode 46/47** `PermuteAllNumber ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/PermuteAllNumber.java)
 
+#### Question 163
+
+👉👉  [`FindDuplicate ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/FindDuplicate.java)
+
 
