@@ -44,4 +44,8 @@
 
 👉👉  [`FindDuplicate ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/FindDuplicate.java)
 
+#### Question 165
+
+👉👉  [`SearchNumberBySortedArray ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/SearchNumberBySortedArray.java)
+
 
