@@ -30,10 +30,9 @@ public class DecodeString {
             } else {//c==']'
                 StringBuilder pSb = new StringBuilder(strStack.pop());
                 int repeatTimes = numStack.pop();
-                pSb.append(String.valueOf(sb).repeat(Math.max(0, repeatTimes)));
-//                for (int j = 0; j < repeatTimes; j++) {
-//                    pSb.append(sb);
-//                }
+                for (int j = 0; j < repeatTimes; j++) {
+                    pSb.append(sb);
+                }
                 sb = pSb;
             }
         }
