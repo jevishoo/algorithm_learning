@@ -17,3 +17,7 @@
 #### Question 161
 
 👉👉  [**leetcode 202** `HappyNumber ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/HappyNumber.java)
+
+#### Question 168
+
+👉👉  [**JZ 44** `FindNthDigit ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/FindNthDigit.java)

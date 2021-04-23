@@ -99,3 +99,7 @@
 #### Question 157
 
 👉👉  [`BigData ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/BigData.java)
+
+#### Question 167
+
+👉👉  [**JZ 38** `StringPermutation ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/StringPermutation.java)
