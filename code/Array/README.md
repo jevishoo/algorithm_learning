@@ -48,4 +48,8 @@
 
 👉👉  [`SearchNumberBySortedArray ★☆☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/SearchNumberBySortedArray.java)
 
+#### Question 169
+
+👉👉  [**JZ 45** `PermutationMinNumber ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/PermutationMinNumber.java)
+
 

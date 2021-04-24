@@ -103,3 +103,7 @@
 #### Question 167
 
 👉👉  [**JZ 38** `StringPermutation ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/StringPermutation.java)
+
+#### Question 170
+
+👉👉  [**JZ 46** `TranslateNum ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/TranslateNum.java)
