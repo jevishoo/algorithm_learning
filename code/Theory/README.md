@@ -21,3 +21,7 @@
 #### Question 168
 
 👉👉  [**JZ 44** `FindNthDigit ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/FindNthDigit.java)
+
+#### Question 171
+
+👉👉  [`NumberDictOrder ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/NumberDictOrder.java)
