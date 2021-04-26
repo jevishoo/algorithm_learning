@@ -53,3 +53,9 @@
 👉👉  [**JZ 45** `PermutationMinNumber ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/PermutationMinNumber.java)
 
 
+
+#### Question 172
+
+👉👉  [`ContinuousMaxSum ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ContinuousMaxSum.java)
+
+

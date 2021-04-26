@@ -5,7 +5,7 @@ package code.Array;
  * @date 2021/4/6 14:47
  * @description 连续子数组的最大和
  */
-public class MxSubArray {
+public class MaxSubArray {
     public static int maxSubArray(int[] nums) {
         int max = nums[0];
 
