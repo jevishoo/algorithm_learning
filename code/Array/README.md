@@ -52,10 +52,10 @@
 
 👉👉  [**JZ 45** `PermutationMinNumber ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/PermutationMinNumber.java)
 
-
-
-#### Question 172
+#### Question 172-173
 
 👉👉  [`ContinuousMaxSum ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ContinuousMaxSum.java)
+
+👉👉  [`ThreeSumEqualZero ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ThreeSumEqualZero.java)
 
 

@@ -23,3 +23,7 @@
 #### Question 164
 
 👉👉  [`StealMaxValue ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/RecursionDP/StealMaxValue.java)
+
+#### Question 174
+
+👉👉  [`SuperEggDrop ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/RecursionDP/SuperEggDrop.java)
