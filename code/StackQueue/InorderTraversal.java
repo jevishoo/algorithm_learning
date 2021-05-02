@@ -7,11 +7,11 @@ import java.util.List;
 import java.util.Stack;
 
 /**
+ * @author Jevis Hoo
  * @Date 2020/9/13 9:56
- * @Created by Jevis_Hoo
  * @Description Inorder Traversal using Stack
  * <p>
- * Given a binary tree, return the inorder traversal of its nodes' valueues.
+ * Given a binary tree, return the inorder traversal of its nodes' values.
  * <p>
  * Recursive solution is trivial, could you do it iteratively?
  */
