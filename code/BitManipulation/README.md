@@ -9,3 +9,7 @@
 👉👉  [`Arithmetic ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/Arithmetic.java)
 
 👉👉  [`Pow ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/Pow.java)
+
+#### Question 178
+
+👉👉  [`DecimalToHex ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/DecimalToHex.java)
