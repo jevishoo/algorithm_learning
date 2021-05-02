@@ -107,3 +107,9 @@
 #### Question 170
 
 👉👉  [**JZ 46** `TranslateNum ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/TranslateNum.java)
+
+#### Question 176-177
+
+👉👉  [**leetcode 97** `InterMixedString ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/InterMixedString.java)
+
+👉👉  [**leetcode 115** `CountSubsequence ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/String/CountSubsequence.java)
