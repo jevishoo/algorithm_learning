@@ -80,3 +80,5 @@
 👉👉  [`HouseRobber Ⅲ ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/HouseRobber.java)
 #### Question 166
 👉👉  [**JZ 36** `TreeToDoublyList ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/TreeToDoublyList.java)
+#### Question 179
+👉👉  [**JZ 33** `IsPostorderBST ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BinaryTree/IsPostorderBST.java)

@@ -29,3 +29,7 @@
 #### Question 175 Important ❗❗❗
 
 👉👉  [`LRUCache ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/LRUCache.java)
+
+#### Question 180
+
+👉👉  [`SumOf36 ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/SumOf36.java)
