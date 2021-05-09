@@ -64,4 +64,8 @@
 
 👉👉  [`MinSum ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/MinSum.java)
 
+#### Question 185
+
+👉👉  [`IncreasingTriplet ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/IncreasingTriplet.java)
+
 
