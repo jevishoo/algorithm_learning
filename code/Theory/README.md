@@ -33,3 +33,7 @@
 #### Question 180
 
 👉👉  [`SumOf36 ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/SumOf36.java)
+
+#### Question 181
+
+👉👉  [`UglyNumber ★★★★☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Theory/UglyNumber.java)

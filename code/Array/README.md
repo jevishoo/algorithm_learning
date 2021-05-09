@@ -58,4 +58,10 @@
 
 👉👉  [`ThreeSumEqualZero ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ThreeSumEqualZero.java)
 
+#### Question 183-184
+
+👉👉  [`ReversePairs ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ReversePairs.java)
+
+👉👉  [`MinSum ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/MinSum.java)
+
 
