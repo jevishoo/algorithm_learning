@@ -8,4 +8,8 @@
 
 #### Question 182
 
-👉👉  [MergeSort` ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Sort/MergeSort.java)
+👉👉  [`MergeSort ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Sort/MergeSort.java)
+
+#### Question 185
+
+👉👉  [`HeapSort ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Sort/HeapSort.java)
