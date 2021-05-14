@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * @author Jevis Hoo
  * @date 2021/5/10 19:47
- * @description
+ * @description 接雨水
  */
 public class RainTrap {
     public static void main(String[] args) {

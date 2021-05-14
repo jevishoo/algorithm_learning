@@ -13,3 +13,7 @@
 #### Question 178
 
 👉👉  [`DecimalToHex ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/DecimalToHex.java)
+
+#### Question 188
+
+👉👉  [**JZ 56** `SingleNumbers ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/BitMunipulation/SingleNumbers.java)
