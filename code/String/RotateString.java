@@ -32,7 +32,7 @@ public class RotateString {
         }
     }
 
-    public static void rotateString(char[] chars, int size) {
+    public static String rotateString(char[] chars, int size) {
         for (int i = 0; i < size >> 1; i++) {
             swap(chars, i, size - i - 1);
         }
@@ -43,10 +43,12 @@ public class RotateString {
         for (int i = 0; i < chars.length >> 1; i++) {
             swap(chars, i, chars.length - i - 1);
         }
+
+        return String.valueOf(chars);
     }
 
 
-    public static void rotateString2(char[] chars, int size) {
+    public static String rotateString2(char[] chars, int size) {
         int lPart = size;
         int rPart = chars.length - size;
 
@@ -60,16 +62,16 @@ public class RotateString {
             if (lPart == rPart) {
                 break;
             } else if (lPart < rPart) {
-                end = rPart - 1;
-                min = Math.min(lPart, rPart - lPart);
+                end -= min;
                 rPart = rPart - lPart;
             } else {
-                start = rPart;
-                min = Math.min(rPart, lPart - rPart);
+                start += min;
                 lPart = lPart - rPart;
             }
+            min = Math.min(lPart, rPart);
         }
 
+        return String.valueOf(chars);
     }
 
     public static void swap(char[] chars, int i, int j) {
@@ -77,6 +79,16 @@ public class RotateString {
         chars[i] = chars[j];
         chars[j] = tmp;
     }
+
+
+    public static String rotateString3(char[] chars, int size) {
+        StringBuilder res = new StringBuilder();
+        for (int i = size; i < size + chars.length; i++) {
+            res.append(chars[i % chars.length]);
+        }
+        return res.toString();
+    }
+
 
     public static void main(String[] args) {
         char[] chars = "Time is water".toCharArray();
@@ -86,16 +98,17 @@ public class RotateString {
 
         chars = "E.STAR".toCharArray();
         System.out.println(chars);
-        rotateString2(chars, 2);
-        System.out.println(chars);
-        rotateString(chars, 4);
-        System.out.println(chars);
+        System.out.println(rotateString(chars, 4));
+        System.out.println(rotateString2(chars, 2));
 
         chars = "12345ABCDEFGF".toCharArray();
-        System.out.println(chars);
-        rotateString2(chars, 5);
-        System.out.println(chars);
-        rotateString(chars, 8);
-        System.out.println(chars);
+        System.out.println("origin: " + String.valueOf(chars));
+        System.out.println(rotateString(chars, 8));
+        System.out.println(rotateString2(chars, 5));
+
+        String string = "lrloseumgh";
+        System.out.println("origin: " + string);
+        System.out.println(rotateString2(string.toCharArray(), 6));
+        System.out.println(rotateString3(string.toCharArray(), 6));
     }
 }
