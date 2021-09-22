@@ -72,8 +72,12 @@
 
 👉👉  [`RainTrap ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/RainTrap.java)
 
-#### Question 188
+#### Question 189
 
 👉👉  [**JZ 57** `FindContinuousSequence ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/FindContinuousSequence.java)
+
+#### Question 190
+
+👉👉  [**JZ 66 构建乘积数组** `ConstructMultiArray ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ConstructMultiArray.java)
 
 
