@@ -80,4 +80,9 @@
 
 👉👉  [**JZ 66 构建乘积数组** `ConstructMultiArray ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/ConstructMultiArray.java)
 
+#### Question 191
+
+👉👉  [**LC 414 第三大的数** `FindThirdMaxNumber ★★☆☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/FindThirdMaxNumber.java)
+
+👉👉  [**LC 581 最短无序连续子数组** `FindUnsortedSubarray ★★★☆☆`](https://github.com/jevishoo/algorithm_learning/blob/master/code/Array/FindUnsortedSubarray.java)
 
