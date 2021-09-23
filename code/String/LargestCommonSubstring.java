@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/17 10:46
+ * @since 2021/3/17 10:46
  * @description 最长公共子串
  */
 public class LargestCommonSubstring {

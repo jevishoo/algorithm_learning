@@ -5,7 +5,7 @@ import java.util.Stack;
 
 /**
  * @author Jevis Hoo
- * @Date 2020/9/10 13:40
+ * @since 2020/9/10 13:40
  * @Description Valid Parentheses
  * <p>
  * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',

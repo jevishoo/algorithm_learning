@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/30 14:40
+ * @since 2020/10/30 14:40
  * @Created by Jevis_Hoo
  * @Description 将排好序的链表转换成搜索二叉树
  */

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Stack;
 
 /**
- * @Date 2020/10/7 9:04
+ * @since 2020/10/7 9:04
  * @Created by Jevis_Hoo
  * @Description Maximum Frequency Stack
  * <p>

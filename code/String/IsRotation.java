@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/8 11:26
+ * @since 2021/3/8 11:26
  * @description 判断两个字符串是否互为旋转词
  * <p>
  * 如果一个字符串为 str，把字符串 str 前面任意的部分挪到后面形成的字符串叫作 str 的旋转词。

@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @author Jevis Hoo
- * @date 2021/2/2 12:10
+ * @since 2021/2/2 12:10
  * @description Path Sum
  * <p>
  * Given the root of a binary tree and an integer targetSum,

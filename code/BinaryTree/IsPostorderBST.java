@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author Jevis Hoo
- * @date 2021/5/7 16:06
+ * @since 2021/5/7 16:06
  * @description 输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历结果
  */
 public class IsPostorderBST {

@@ -3,7 +3,7 @@ package code.LinkedList;
 import java.util.HashMap;
 
 /**
- * @Date 2020/11/9 9:53
+ * @since 2020/11/9 9:53
  * @Created by Jevis_Hoo
  * @Description Remove Zero Sum Consecutive Nodes from Linked List
  */

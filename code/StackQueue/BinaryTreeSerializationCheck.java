@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 /**
- * @Date 2020/9/20 9:38
+ * @since 2020/9/20 9:38
  * @Created by Jevis_Hoo
  * @Description 验证二叉树的前序序列化
  * <p>

@@ -2,7 +2,7 @@ package code.BinaryTree;
 
 /**
  * @author Jevis Hoo
- * @date 2020/11/27 14:37
+ * @since 2020/11/27 14:37
  * @description
  */
 public class IsBalanceTree {

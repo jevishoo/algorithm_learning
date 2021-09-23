@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/7 21:27
+ * @since 2021/4/7 21:27
  * @description 冒泡排序
  */
 public class BubbleSort {

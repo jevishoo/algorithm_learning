@@ -2,7 +2,7 @@ package code.Array;
 
 /**
  * @author Jevis Hoo
- * @date 2021/5/9 10:27
+ * @since 2021/5/9 10:27
  * @description 数组小和
  * <p>
  * 在一个数组中，每个数左边比当前数小的数累加起来，叫作这个数组的小和。

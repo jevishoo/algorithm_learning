@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 /**
- * @Date 2020/8/23 20:13
+ * @since 2020/8/23 20:13
  * @Created by Jevis_Hoo
  * @Description 求最大子矩阵的大小
  * 给定一个整型矩阵mat，其中的值只有0 和1 两种，求其中全是1

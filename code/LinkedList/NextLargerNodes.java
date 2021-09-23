@@ -3,7 +3,7 @@ package code.LinkedList;
 import java.util.*;
 
 /**
- * @Date 2020/11/8 16:06
+ * @since 2020/11/8 16:06
  * @Created by Jevis_Hoo
  * @Description Next Greater Node In Linked List
  */

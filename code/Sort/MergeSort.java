@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/5/9 10:01
+ * @since 2021/5/9 10:01
  * @description
  */
 public class MergeSort {

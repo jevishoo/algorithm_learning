@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/26 22:30
+ * @since 2021/4/26 22:30
  * @description 鸡蛋掉落
  * 给你 k 枚相同的鸡蛋，并可以使用一栋从第 1 层到第 n 层共有 n 层楼的建筑。
  * <p>

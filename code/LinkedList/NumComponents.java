@@ -3,7 +3,7 @@ package code.LinkedList;
 import java.util.HashSet;
 
 /**
- * @Date 2020/11/6 10:00
+ * @since 2020/11/6 10:00
  * @Created by Jevis_Hoo
  * @Description Linked List Components
  *

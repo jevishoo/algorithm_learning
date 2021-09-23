@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/11 16:52
+ * @since 2021/3/11 16:52
  * @description 删除多余字符得到字典序最小的字符串
  * 给定一个全是小写字母的字符串str，删除多余字符，使得每种字符只保留一个，并让最终结果字符串的字典序最小。
  */

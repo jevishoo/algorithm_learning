@@ -5,7 +5,7 @@ import code.Other.UnionFind;
 import java.util.*;
 
 /**
- * @Date 2020/12/16 15:04
+ * @since 2020/12/16 15:04
  * @Created by Jevis_Hoo
  * @Description Tarjan 算法与并查集解决二叉树节点间最近公共祖先的批量查询问题
  * <p>

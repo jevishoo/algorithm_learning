@@ -2,7 +2,7 @@ package code.Theory;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/25 9:33
+ * @since 2021/4/25 9:33
  * @description 数字的字典序
  * 给定整数 n、m，将 1 到 n 这 n 个整数按字典序排列后，取第 m 个数
  */

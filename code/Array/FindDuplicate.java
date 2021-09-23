@@ -2,7 +2,7 @@ package code.Array;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/11 15:32
+ * @since 2021/4/11 15:32
  * @description 有 1亿个数字，其中有2个是重复的，快速找到它
  */
 public class FindDuplicate {

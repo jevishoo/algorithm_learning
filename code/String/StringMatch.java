@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/23 10:40
+ * @since 2021/3/23 10:40
  * @description 字符串匹配问题
  * 给定字符串 str，其中绝对不含有字符 '.'和 '*'。
  * 再给定字符串 exp，其中可以含有 '.'或 '*'，'*'字符不能是 exp的首字符，并且任意两个 '*'字符不相邻。

@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Jevis Hoo
- * @date 2021/2/19 9:41
+ * @since 2021/2/19 9:41
  * @description Binary Tree Paths
  * <p>
  * Given a binary tree, return all root-to-leaf paths.

@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/22 11:45
+ * @since 2021/3/22 11:45
  * @description 找到指定的新类型字符
  * 新类型字符的定义如下：
  * 新类型字符是长度为 1 或者 2 的字符串。表现形式为：

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/3 20:40
+ * @since 2021/4/3 20:40
  * @description 整数分割
  */
 public class SplitNum {

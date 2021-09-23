@@ -2,7 +2,7 @@ package code.Array;
 
 /**
  * @author Jevis Hoo
- * @date 2021/5/9 22:06
+ * @since 2021/5/9 22:06
  * @description 递增的三元子序列
  * <p>
  * 给你一个整数数组 nums ，判断这个数组中是否存在长度为 3 的递增子序列。

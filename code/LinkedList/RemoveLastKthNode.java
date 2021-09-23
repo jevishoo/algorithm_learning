@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/8 14:42
+ * @since 2020/10/8 14:42
  * @Created by Jevis_Hoo
  * @Description 在单链表和双链表中删除倒数第K 个节点
  * <p>

@@ -2,7 +2,7 @@ package code.Array;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/26 11:40
+ * @since 2021/4/26 11:40
  * @description 查找数组里连续两个数之和最大的数
  */
 public class ContinuousMaxSum {

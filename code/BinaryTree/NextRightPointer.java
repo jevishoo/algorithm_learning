@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 /**
  * @author Jevis Hoo
- * @date 2021/2/5 11:43
+ * @since 2021/2/5 11:43
  * @description Populating Next Right Pointers in Each Node
  * <p>
  * >>> 1

@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/12 9:57
+ * @since 2021/3/12 9:57
  * @description 数组中两个字符串的最小距离
  * 给定一个字符串数组 strings，再给定两个字符串 str1 和 str2，返回在 strings 中 str1 与 str2 的最小距离，
  * 如果 str1 或 str2 为 null，或不在 strings 中，返回-1。

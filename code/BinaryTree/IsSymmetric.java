@@ -2,7 +2,7 @@ package code.BinaryTree;
 
 /**
  * @author Jevis Hoo
- * @date 2021/1/31 11:17
+ * @since 2021/1/31 11:17
  * @description check whether it is a mirror of itself
  * <p>
  * ie, symmetric around its center

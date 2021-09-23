@@ -3,7 +3,7 @@ package code.StackQueue;
 import java.util.*;
 
 /**
- * @Date 2020/8/19 19:02
+ * @since 2020/8/19 19:02
  * @Created by Jevis_Hoo
  * @Description 给定一个数组arr，找到每一个i位置左边和右边离i位置最近且值比arr[i]小的位置。返回所有位置相应的信息。
  * <p>

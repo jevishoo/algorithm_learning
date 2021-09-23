@@ -3,7 +3,7 @@ package code.StackQueue;
 import java.util.*;
 
 /**
- * @Date 2020/9/19 10:11
+ * @since 2020/9/19 10:11
  * @Created by Jevis_Hoo
  * @Description 扁平化嵌套列表迭代器
  * <p>

@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/23 14:41
+ * @since 2020/10/23 14:41
  * @Created by Jevis_Hoo
  * @Description 按照左右半区的方式重新组合单链表
  * <p>

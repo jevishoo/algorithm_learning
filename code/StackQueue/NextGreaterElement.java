@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Stack;
 
 /**
- * @Date 2020/9/23 21:01
+ * @since 2020/9/23 21:01
  * @Created by Jevis_Hoo
  * @Description Next Greater Element I
  * <p>

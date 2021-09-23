@@ -2,7 +2,7 @@ package code.BinaryTree;
 
 /**
  * @author Jevis Hoo
- * @date 2021/2/18 10:29
+ * @since 2021/2/18 10:29
  * @description Kth Smallest Element in a BST
  * <p>
  * Given the root of a binary search tree, and an integer k,

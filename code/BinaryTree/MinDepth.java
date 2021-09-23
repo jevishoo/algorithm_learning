@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 /**
  * @author Jevis Hoo
- * @date 2021/2/2 11:18
+ * @since 2021/2/2 11:18
  * @description Minimum Depth of Binary Tree
  * <p>
  * The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.

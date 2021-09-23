@@ -2,7 +2,7 @@ package code.BinaryTree;
 
 /**
  * @author Jevis Hoo
- * @date 2021/2/7 13:47
+ * @since 2021/2/7 13:47
  * @description Binary Tree Maximum Path Sum
  * <p>
  * A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence

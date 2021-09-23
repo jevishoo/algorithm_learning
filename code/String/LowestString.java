@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/20 13:35
+ * @since 2021/3/20 13:35
  * @description 拼接所有字符串产生字典顺序最小的大写字符串
  * 给定一个字符串类型的数组 strings，请找到一种拼接顺序，
  * 使得将所有的字符串拼接起来组成的大写字符串是所有可能性中字典顺序最小的，并返回这个大写字符串。

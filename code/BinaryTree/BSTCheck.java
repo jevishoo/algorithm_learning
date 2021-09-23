@@ -1,7 +1,7 @@
 package code.BinaryTree;
 
 /**
- * @date 2020/9/18 21:00
+ * @since 2020/9/18 21:00
  * @author Jevis Hoo
  * @description 二叉搜索树的检查
  * <p>

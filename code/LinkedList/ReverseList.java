@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/11 9:41
+ * @since 2020/10/11 9:41
  * @Created by Jevis_Hoo
  * @Description 反转单向和双向链表
  */

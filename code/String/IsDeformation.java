@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/8 10:55
+ * @since 2021/3/8 10:55
  * @description 判断两个字符串是否互为变形词
  * <p>
  * 给定两个字符串 str1 和 str2，如果 str1 和 str2 中出现的字符种类一样且每种字符出现的次数也一样，

@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/26 9:28
+ * @since 2020/10/26 9:28
  * @Created by Jevis_Hoo
  * @Description
  */

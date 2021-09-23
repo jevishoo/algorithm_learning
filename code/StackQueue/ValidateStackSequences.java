@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/9 10:02
+ * @since 2021/4/9 10:02
  * @description 栈的压入、弹出序列
  */
 public class ValidateStackSequences {

@@ -2,7 +2,7 @@ package code.RecursionDP.Knapsack;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/4 10:58
+ * @since 2021/3/4 10:58
  * @description 完全背包问题
  * <p>
  * 有 N 种物品和一个容量是 V 的背包，每种物品都有无限件可用。

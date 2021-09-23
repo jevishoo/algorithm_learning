@@ -3,7 +3,7 @@ package code.LinkedList;
 import java.util.HashMap;
 
 /**
- * @Date 2020/10/15 9:38
+ * @since 2020/10/15 9:38
  * @Created by Jevis_Hoo
  * @Description 复制含有随机指针节点的链表
  */

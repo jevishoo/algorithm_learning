@@ -2,7 +2,7 @@ package code.LinkedList;
 
 /**
  * @author Jevis Hoo
- * @Date 2020/10/27 8:28
+ * @since 2020/10/27 8:28
  * @Description Delete Duplicates from Sorted List II
  * <p>
  * Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.

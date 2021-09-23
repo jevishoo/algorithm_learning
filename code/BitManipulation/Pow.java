@@ -2,7 +2,7 @@ package code.BitManipulation;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/1 10:51
+ * @since 2021/4/1 10:51
  * @description 数值的整数次方（快速幂算法）
  */
 public class Pow {

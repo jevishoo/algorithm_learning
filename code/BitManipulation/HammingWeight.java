@@ -2,7 +2,7 @@ package code.BitManipulation;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/1 9:19
+ * @since 2021/4/1 9:19
  * @description 二进制中1的个数
  */
 public class HammingWeight {

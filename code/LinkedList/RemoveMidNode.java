@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/9 11:33
+ * @since 2020/10/9 11:33
  * @Created by Jevis_Hoo
  * @Description 删除链表的中间节点和 a/b 处的节点
  */

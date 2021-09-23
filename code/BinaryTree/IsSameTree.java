@@ -2,7 +2,7 @@ package code.BinaryTree;
 
 /**
  * @author Jevis Hoo
- * @date 2021/1/29 9:58
+ * @since 2021/1/29 9:58
  * @description
  */
 public class IsSameTree {

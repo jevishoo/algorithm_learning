@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/18 10:32
+ * @since 2020/10/18 10:32
  * @Created by Jevis_Hoo
  * @Description 将单链表的每K 个节点之间逆序
  */

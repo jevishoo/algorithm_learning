@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/5/2 14:13
+ * @since 2021/5/2 14:13
  * @description 不同的子序列
  * 给定一个字符串 s 和一个字符串 t ，计算在 s 的子序列中 t 出现的个数。
  * <p>

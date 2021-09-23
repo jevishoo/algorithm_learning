@@ -2,7 +2,7 @@ package code.Theory;
 
 /**
  * @author Jevis Hoo
- * @date 2021/5/7 16:15
+ * @since 2021/5/7 16:15
  * @description 36进制加法
  */
 public class SumOf36 {

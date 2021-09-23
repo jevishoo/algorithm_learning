@@ -3,7 +3,7 @@ package code.BinaryTree;
 import java.util.LinkedList;
 
 /**
- * @Date 2020/9/18 21:00
+ * @since 2020/9/18 21:00
  * @Created by Jevis_Hoo
  * @Description 完全二叉树的检查
  * <p>

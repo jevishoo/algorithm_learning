@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 /**
- * @Date 2020/8/17 17:53
+ * @since 2020/8/17 17:53
  * @Created by Jevis_Hoo
  * @Description 生成窗口最大值数组
  * 有一个整型数组arr 和一个大小为w 的窗口从数组的最左边滑到最右边，窗口每次向右边滑一个位置。

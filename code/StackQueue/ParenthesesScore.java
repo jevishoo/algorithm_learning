@@ -3,7 +3,7 @@ package code.StackQueue;
 import java.util.Stack;
 
 /**
- * @Date 2020/10/5 10:22
+ * @since 2020/10/5 10:22
  * @Created by Jevis_Hoo
  * @Description Score of Parentheses
  * <p>

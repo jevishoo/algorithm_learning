@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/8 13:22
+ * @since 2020/10/8 13:22
  * @Created by Jevis_Hoo
  * @Description 给定两个有序链表的头指针head1 和head2，打印两个链表的公共部分
  */

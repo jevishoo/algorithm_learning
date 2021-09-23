@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/21 11:25
+ * @since 2021/3/21 11:25
  * @description 找到无序数组中最小的 k个数
  * 如果数组 arr的长度为 N，排序之后自然可以得到最小的 k个数，此时时间复杂度与排序的时间复杂度相同，均为 O(NlogN)。
  * 本题要求实现时间复杂度为 O(NlogK)和 O(N)的方法。

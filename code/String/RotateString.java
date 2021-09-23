@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/10 15:07
+ * @since 2021/3/10 15:07
  * @description 翻转字符串
  * 给定一个字符类型的数组chas，请在单词间做逆序调整。只要做到单词的顺序逆序即可，对空格的位置没有特别要求。
  * <p>

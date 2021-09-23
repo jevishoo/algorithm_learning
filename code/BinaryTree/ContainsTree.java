@@ -4,7 +4,7 @@ import static code.StackQueue.BinaryTreeSerializationCheck.serialByPre;
 import static code.String.KMP.getIndexOf;
 
 /**
- * @Date 2020/11/24 8:52
+ * @since 2020/11/24 8:52
  * @Created by Jevis_Hoo
  * @Description 判断 t1 树是否包含 t2 树全部的拓扑结构
  */

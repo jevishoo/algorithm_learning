@@ -1,7 +1,7 @@
 package code.BinaryTree;
 
 /**
- * @Date 2020/12/16 15:04
+ * @since 2020/12/16 15:04
  * @Created by Jevis_Hoo
  * @Description 二叉树节点间的最大距离问题
  */

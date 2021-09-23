@@ -2,7 +2,7 @@ package code.RecursionDP;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/2 10:14
+ * @since 2021/3/2 10:14
  * @description 机器人达到指定位置方法数
  * <p>
  * 假设有排成一行的 N 个位置，记为 1~N，N 一定大于或等于 2。开始时机器人在其中的 M 位置上（ M 一定是 1～N 中的一个），

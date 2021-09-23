@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @Date 2020/11/24 10:34
+ * @since 2020/11/24 10:34
  * @Description KMP algorithm
  */
 public class KMP {

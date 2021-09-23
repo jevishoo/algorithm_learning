@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/6 9:39
+ * @since 2021/4/6 9:39
  * @description 表示数值的字符串
  */
 public class NumberCheck {

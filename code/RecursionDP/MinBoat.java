@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/18 9:06
+ * @since 2021/3/18 9:06
  * @description 最小船只问题
  * 给定一个数组 arr,长度为 N且每个值都是正数，代表 N个人的体重。再给定一个正数 limit，代表一艘船的重量。
  * 坐船规则如下：

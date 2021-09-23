@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/12 9:59
+ * @since 2020/10/12 9:59
  * @Created by Jevis_Hoo
  * @Description 环形单链表的约瑟夫问题
  * <p>

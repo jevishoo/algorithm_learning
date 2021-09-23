@@ -3,7 +3,7 @@ package code.StackQueue;
 import java.util.LinkedList;
 
 /**
- * @Date 2020/8/24 21:48
+ * @since 2020/8/24 21:48
  * @Created by Jevis_Hoo
  * @Description 最大值减去最小值小于或等于num 的子数组数量
  * <p>

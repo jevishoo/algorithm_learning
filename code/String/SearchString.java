@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/10 9:19
+ * @since 2021/3/10 9:19
  * @description 在有序但含有空的数组中查找字符串
  * 给定一个字符串数组 strings[]，在 strings 中有些位置为 null，但在不为 null 的位置上，其字符串
  * 是按照字典顺序由小到大依次出现的。再给定一个字符串 str，请返回 str 在 strings 中出现的最左的位置。

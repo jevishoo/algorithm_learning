@@ -2,7 +2,7 @@ package code.BitManipulation;
 
 /**
  * @author Jevis Hoo
- * @date 2021/5/2 20:22
+ * @since 2021/5/2 20:22
  * @description
  */
 public class DecimalToHex {

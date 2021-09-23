@@ -2,7 +2,7 @@ package code.BitManipulation;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/1 9:30
+ * @since 2021/4/1 9:30
  * @description 不用做任何比较判断找出两个数中较大的数
  */
 public class GetMax {

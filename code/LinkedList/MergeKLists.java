@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/26 8:52
+ * @since 2020/10/26 8:52
  * @Created by Jevis_Hoo
  * @Description Merge k Sorted Lists
  */

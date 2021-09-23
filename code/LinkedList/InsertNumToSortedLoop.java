@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/22 10:05
+ * @since 2020/10/22 10:05
  * @Created by Jevis_Hoo
  * @Description 向有序的环形单链表中插入新节点
  */

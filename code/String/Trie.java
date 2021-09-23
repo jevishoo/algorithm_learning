@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/24 11:24
+ * @since 2021/3/24 11:24
  * @description
  */
 public class Trie {

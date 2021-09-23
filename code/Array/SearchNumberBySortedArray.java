@@ -2,7 +2,7 @@ package code.Array;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/13 10:14
+ * @since 2021/4/13 10:14
  * @description 在排序数组中查找数字 I
  */
 public class SearchNumberBySortedArray {

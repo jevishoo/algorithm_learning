@@ -3,7 +3,7 @@ package code.LinkedList;
 import java.util.Stack;
 
 /**
- * @Date 2020/10/13 8:27
+ * @since 2020/10/13 8:27
  * @Created by Jevis_Hoo
  * @Description 判断一个链表是否为回文结构
  */

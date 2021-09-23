@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/11/5 10:34
+ * @since 2020/11/5 10:34
  * @Created by Jevis_Hoo
  * @Description Split Linked List in Parts
  * <p>

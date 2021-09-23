@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/10 11:34
+ * @since 2021/4/10 11:34
  * @description 全排列
  */
 public class PermuteAllNumber {

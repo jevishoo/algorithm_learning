@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @Date 2020/9/10 14:26
+ * @since 2020/9/10 14:26
  * @Created by Jevis_Hoo
  * @Description SimplifyPath
  * <p>

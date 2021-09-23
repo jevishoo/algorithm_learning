@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/11/3 8:39
+ * @since 2020/11/3 8:39
  * @Created by Jevis_Hoo
  * @Description Flatten a Multilevel Doubly Linked List
  */

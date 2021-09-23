@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/8 14:44
+ * @since 2021/3/8 14:44
  * @description 字符串的统计字符串
  * 给定一个字符串 str，返回 str 的统计字符串。例如，"aaabbadddffc"的统计字符串为
  * "a_3_b_2_a_1_d_3_f_2_c_1"。

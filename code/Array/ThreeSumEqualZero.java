@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/26 21:38
+ * @since 2021/4/26 21:38
  * @description 三数之和为0
  */
 public class ThreeSumEqualZero {

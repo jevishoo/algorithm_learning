@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Date 2020/12/16 15:04
+ * @since 2020/12/16 15:04
  * @Created by Jevis_Hoo
  * @Description 派对的最大快乐值
  * 整个公司的人员结构可以看作是一棵标准的、 没有环的多叉树。树的头节点是公司唯一的老板，除老板外，每个员工都有唯一的直接上级。

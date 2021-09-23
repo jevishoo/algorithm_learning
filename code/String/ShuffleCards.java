@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/11 9:52
+ * @since 2021/3/11 9:52
  * @description 完美洗牌问题
  * >>> 1
  * 给定一个长度为偶数的数组 arr，长度记为 2×N。前 N 个为左部分，后 N 个为右部分。

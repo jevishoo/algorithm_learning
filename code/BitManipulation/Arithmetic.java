@@ -2,7 +2,7 @@ package code.BitManipulation;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/1 10:12
+ * @since 2021/4/1 10:12
  * @description 四则运算
  */
 public class Arithmetic {

@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 /**
  * @author Jevis Hoo
- * @Date 2020/11/12 11:13
+ * @since 2020/11/12 11:13
  * @Description 通过层遍历实现序列化和反序列化
  */
 public class SerialByLevel {

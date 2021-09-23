@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/11/3 8:04
+ * @since 2020/11/3 8:04
  * @Created by Jevis_Hoo
  * @Description Odd Even Linked List
  * <p>

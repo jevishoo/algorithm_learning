@@ -5,7 +5,7 @@ import code.StackQueue.PostorderTraversal;
 
 /**
  * @author Jevis Hoo
- * @date 2021/2/3 12:15
+ * @since 2021/2/3 12:15
  * @description Flatten Binary Tree to Linked List
  * <p>
  * The "linked list" should use the same TreeNode class where the right child pointer points to the next node in the list

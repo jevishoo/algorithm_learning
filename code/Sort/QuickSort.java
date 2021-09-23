@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/3 13:48
+ * @since 2021/4/3 13:48
  * @description QuickSort
  */
 public class QuickSort {

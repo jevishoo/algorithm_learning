@@ -2,7 +2,7 @@ package code.BinaryTree;
 
 /**
  * @author Jevis_Hoo
- * @date 2021/1/4 10:06
+ * @since 2021/1/4 10:06
  * @description 统计完全二叉树的节点数
  */
 public class NodesNum {

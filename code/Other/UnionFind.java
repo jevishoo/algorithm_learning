@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * @Date 2020/12/16 13:46
+ * @since 2020/12/16 13:46
  * @Created by Jevis_Hoo
  * @Description 并查集及其应用
  */

@@ -1,7 +1,7 @@
 package code.LinkedList;
 
 /**
- * @Date 2020/10/17 10:30
+ * @since 2020/10/17 10:30
  * @Created by Jevis_Hoo
  * @Description 两个单链表相交的一系列问题
  * <p>

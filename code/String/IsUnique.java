@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/9 14:55
+ * @since 2021/3/9 14:55
  * @description 判断字符数组中是否所有的字符都只出现过一次
  * <p>
  * 给定一个字符类型数组chas[]，判断chas 中是否所有的字符都只出现过一次。

@@ -2,7 +2,7 @@ package code.RecursionDP;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/11 16:36
+ * @since 2021/4/11 16:36
  * @description 小偷能偷的最大价值
  */
 public class StealMaxValue {

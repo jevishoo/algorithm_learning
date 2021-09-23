@@ -2,7 +2,7 @@ package code.Theory;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/6 15:26
+ * @since 2021/4/6 15:26
  * @description 1～n 整数中 1 出现的次数
  */
 public class CountDigitOne {

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/2 11:27
+ * @since 2021/4/2 11:27
  * @description 最长回文子串
  */
 public class LargestPalindromeSubstring {

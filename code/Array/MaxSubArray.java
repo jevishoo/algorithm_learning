@@ -2,7 +2,7 @@ package code.Array;
 
 /**
  * @author Jevis Hoo
- * @date 2021/4/6 14:47
+ * @since 2021/4/6 14:47
  * @description 连续子数组的最大和
  */
 public class MaxSubArray {

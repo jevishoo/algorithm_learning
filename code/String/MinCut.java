@@ -2,7 +2,7 @@ package code.String;
 
 /**
  * @author Jevis Hoo
- * @date 2021/3/19 20:02
+ * @since 2021/3/19 20:02
  * @description 回文最少分割数
  */
 public class MinCut {
